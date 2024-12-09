@@ -1,7 +1,8 @@
 
 
 # PanguSync
-#### 📘【版权声明】本软件是PanguHA的子模块，受国家著作权法严格保护，任何未经授权的反编译、篡改、二次售卖均构成盗版行为，我们将依法追究相关责任人的法律责任！！！[[PanguSync 8.0官方正版下载]](https://pan.baidu.com/s/1WesHaKGO7uQMhPNE-BTDmg?pwd=abcd#list/path=%2F)
+## [PanguSync 8.0官方正版下载](https://pan.baidu.com/s/1WesHaKGO7uQMhPNE-BTDmg?pwd=abcd#list/path=%2F)
+#### 📘【版权声明】本软件是PanguHA的子模块，受国家著作权法严格保护，任何未经授权的反编译、篡改、二次售卖均构成盗版行为，我们将依法追究相关责任人的法律责任！！！
 <img src="软著.png" width="100px"  />
 
 ##   🌵简介
