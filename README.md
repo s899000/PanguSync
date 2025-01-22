@@ -1,7 +1,7 @@
 
 
 # PanguSync
-## [PanguSync 8.3 官方正版下载](https://pan.baidu.com/s/1WesHaKGO7uQMhPNE-BTDmg?pwd=abcd#list/path=%2F)【[$\color{blue}{版本更新说明}$](https://gitee.com/AaronE_2890620459/pangu-sync/wikis/pages)】
+## [PanguSync 8.4 官方正版下载](https://pan.baidu.com/s/1WesHaKGO7uQMhPNE-BTDmg?pwd=abcd#list/path=%2F)【[$\color{blue}{版本更新说明}$](https://gitee.com/AaronE_2890620459/pangu-sync/wikis/pages)】
 #### 📘【版权声明】本软件是PanguHA的子模块，受著作权法严格保护，任何未经授权的反编译、篡改、二次售卖均构成盗版行为，我们将依法追究相关责任人的法律责任！！！
 <img src="软著.png" width="100px"  />
 
