@@ -12,7 +12,7 @@
 2. 开[**发票**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)需签[**合同**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)【现在税务监管非常严】
 3. 一机一码
 4. 如不开发票，价格可聊
-5. 另外可接c#开发，包括但不限于winform、webform、wpf、webapi、sqlserver、oracle、mysql、redis，按工作量收费。
+5. 另外可接c#开发，包括但不限于winform、webform、wpf、webapi、sqlserver、oracle、mysql，按工作量收费
 
 
 
