@@ -11,7 +11,7 @@
 1. 购买方式：微信【vicecity2】、支付宝、银行卡、淘宝
 2. 可签[**合同**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)，可开[**发票**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)【体验版除外】
 3. 一机一码
-4. 如果喜欢本产品，请在右上点个⭐️，可享体验版5折优惠【仅限第一次购买】
+4. 如果喜欢本产品，请在右上点个⭐️，可享体验版5折优惠【仅限第一次购买】，白嫖怪、砍价怪勿扰
 
 
 
