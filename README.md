@@ -11,7 +11,7 @@
 1. 购买方式：微信【vicecity2】、支付宝、银行卡、淘宝
 2. 可签[**合同**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)，可开[**发票**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)【体验版除外】
 3. 一机一码
-4. 如果喜欢本产品，可以在右上点个星星，体验版可享5折优惠，仅限第一次购买
+4. 如果喜欢本产品，可以在右上点个⭐️，可享体验版5折优惠【仅限第一次购买】
 
 
 
@@ -19,7 +19,7 @@
 
 |  |试用版|体验版|专业版 | 企业版  | 至尊版 |
 |---|---|---|---|---|---|
-| **$\color{red}{1}$个注册码售价**  |免费|￥300<br>联系微信购买|  ￥1000<br>[**[购买]**](https://item.taobao.com/item.htm?ft=t&id=754824495442)|  ￥2000<br>[**[购买]**](https://item.taobao.com/item.htm?id=761877111372)|  ￥3000<br> [**[购买]**](https://item.taobao.com/item.htm?ft=t&id=767418824294) |
+| **$\color{red}{1}$个注册码售价**  |免费|￥200<br>联系微信购买|  ￥1000<br>[**[购买]**](https://item.taobao.com/item.htm?ft=t&id=754824495442)|  ￥2000<br>[**[购买]**](https://item.taobao.com/item.htm?id=761877111372)|  ￥3000<br> [**[购买]**](https://item.taobao.com/item.htm?ft=t&id=767418824294) |
 | 发票 | /|❌| ✔️|✔️  |  ✔️ | 
 |授权期限|   **_2h/次（次数不限）_**     | **_终生_**  &nbsp;&nbsp;&nbsp;&nbsp; | **_终生_**  &nbsp;&nbsp;&nbsp;&nbsp;  |  **_终生_**  &nbsp;&nbsp;&nbsp;&nbsp; |  **_终生_**  &nbsp;&nbsp;&nbsp;&nbsp; | 
 | 任务数量 |  **_5_**    |**_50_** |**_500_**   |   **_2000_**  |  **_不限_** |
