@@ -20,7 +20,7 @@
 
 |  |试用版|体验版|专业版 | 企业版  | 至尊版 |
 |---|---|---|---|---|---|
-| **$\color{red}{1}$个注册码售价**  |免费|￥99<br>联系微信购买|  ￥1000<br>[**[购买]**](https://item.taobao.com/item.htm?ft=t&id=754824495442)|  ￥2000<br>[**[购买]**](https://item.taobao.com/item.htm?id=761877111372)|  ￥3000<br> [**[购买]**](https://item.taobao.com/item.htm?ft=t&id=767418824294) |
+| **$\color{red}{1}$个注册码售价**  |免费|￥99<br>联系微信购买|  ￥499<br>[**[购买]**](https://item.taobao.com/item.htm?ft=t&id=754824495442)|  ￥2000<br>[**[购买]**](https://item.taobao.com/item.htm?id=761877111372)|  ￥3000<br> [**[购买]**](https://item.taobao.com/item.htm?ft=t&id=767418824294) |
 | 发票 | /|❌| ✔️|✔️  |  ✔️ | 
 |授权期限|   **_2h/次（次数不限）_**     | **_终生_**  &nbsp;&nbsp;&nbsp;&nbsp; | **_终生_**  &nbsp;&nbsp;&nbsp;&nbsp;  |  **_终生_**  &nbsp;&nbsp;&nbsp;&nbsp; |  **_终生_**  &nbsp;&nbsp;&nbsp;&nbsp; | 
 | 任务数量 |  **_5_**    |**_50_** |**_500_**   |   **_2000_**  |  **_不限_** |
