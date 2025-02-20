@@ -9,7 +9,7 @@
 针对全量比对型软件的效率低、日志型软件的配置复杂等缺点，PanguSync独创了一种新型数据库增量同步技术，具有上手容易、性能稳定等优点。Mysql/Sqlserver数据库同步爱好者一旦使用该软件，将如获至宝，就如修行者获得了一本门槛极低的高等修行功法。
 ##  ☀️爽快人购买
 1. 购买方式：微信【vicecity2】、支付宝、银行卡、淘宝
-2. 可签[**合同**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)，可开[**发票**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)【企业版及以上】
+2. 可签[**合同**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)，可开[**发票**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)
 3. 一机一码
 
 
@@ -18,13 +18,13 @@
 
 
 
-|  |试用版|体验版|专业版 | 企业版  | 至尊版 |
-|---|---|---|---|---|---|
-| **$\color{red}{1}$个注册码售价**  |免费 |**￥99**<br> **联系微信购买** |  **￥499** <br>[**[购买]**](https://item.taobao.com/item.htm?ft=t&id=754824495442)|   **￥2000** <br>[**[购买]**](https://item.taobao.com/item.htm?id=761877111372)|   **￥5000** <br> [**[购买]**](https://item.taobao.com/item.htm?ft=t&id=767418824294) |
-| 任务数量 |  5 |50  |500   |  2000  |  不限 |
-|授权期限|   2h/次（次数不限）   | 终生  &nbsp;&nbsp;&nbsp;&nbsp;  | 终生  &nbsp;&nbsp;&nbsp;&nbsp;  |  终生  &nbsp;&nbsp;&nbsp;&nbsp; |  终生  &nbsp;&nbsp;&nbsp;&nbsp; | 
-| 增值服务 | ❌|❌|  ❌  |   **保姆式答疑**   |    **远程协助+保姆式答疑**   | 
-| 发票 | ❌|❌| ❌ |✔️  |  ✔️ | 
+|  |试用版|专业版 | 企业版  | 至尊版 |
+|---|---|---|---|---|
+| **$\color{red}{1}$个注册码售价**  |免费  |  **￥1000** <br>[**[购买]**](https://item.taobao.com/item.htm?ft=t&id=754824495442)|   **￥2000** <br>[**[购买]**](https://item.taobao.com/item.htm?id=761877111372)|   **￥5000** <br> [**[购买]**](https://item.taobao.com/item.htm?ft=t&id=767418824294) |
+| 任务数量 |  5   |500   |  2000  |  不限 |
+|授权期限|   2h/次（次数不限）  | 终生  &nbsp;&nbsp;&nbsp;&nbsp;  |  终生  &nbsp;&nbsp;&nbsp;&nbsp; |  终生  &nbsp;&nbsp;&nbsp;&nbsp; | 
+| 增值服务 | ❌|  ❌  |   **保姆式答疑**   |    **远程协助+保姆式答疑**   | 
+| 发票 | ❌| ✔️  |✔️  |  ✔️ | 
 
 
 
