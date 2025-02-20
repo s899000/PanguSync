@@ -23,7 +23,7 @@
 | **$\color{red}{1}$个注册码售价**  |免费| **￥99** <br>联系微信购买|   **￥499** <br>[**[购买]**](https://item.taobao.com/item.htm?ft=t&id=754824495442)|   **￥2000** <br>[**[购买]**](https://item.taobao.com/item.htm?id=761877111372)|   **￥5999** <br> [**[购买]**](https://item.taobao.com/item.htm?ft=t&id=767418824294) |
 | 任务数量 |  5    |50 |500   |  2000  |  不限 |
 |授权期限|   2h/次（次数不限）     |终生 &nbsp;&nbsp;&nbsp;&nbsp; | 终生  &nbsp;&nbsp;&nbsp;&nbsp;  |  终生  &nbsp;&nbsp;&nbsp;&nbsp; |  终生  &nbsp;&nbsp;&nbsp;&nbsp; | 
-| 增值服务 | ❌|❌|❌ |  终身答疑   |   一年远程协助+终身答疑  | 
+| 增值服务 | ❌|❌|❌ |   **终身答疑**   |    **一年远程协助+终身答疑**   | 
 | 发票 | ❌|❌| ❌|✔️  |  ✔️ | 
 
 
