@@ -9,7 +9,7 @@
 针对全量比对型软件的效率低、日志型软件的配置复杂等缺点，PanguSync独创了一种新型数据库增量同步技术，具有上手容易、性能稳定等优点。Mysql/Sqlserver数据库同步爱好者一旦使用该软件，将如获至宝，就如修行者获得了一本门槛极低的高等修行功法。
 ##  ☀️爽快人购买
 1. 购买方式：微信【vicecity2】、支付宝、银行卡、淘宝
-2. 可签[**合同**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)，可开[**发票**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)【企业版及以上】
+2. 可签[**合同**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)，可开[**发票**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)
 3. 一机一码
 
 
