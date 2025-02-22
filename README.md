@@ -3,7 +3,7 @@
 
 # [PanguSync 8.7 官方正版下载](https://pan.baidu.com/s/1WesHaKGO7uQMhPNE-BTDmg?pwd=abcd#list/path=%2F)【[$\color{blue}{版本更新说明}$](https://gitee.com/AaronE_2890620459/pangu-sync/wikis/pages)】
 
-![输入图片说明](%E4%B8%BB%E7%95%8C%E9%9D%A2.png)
+<img src="主界面.png" width="600px"  />
 
 
 ##   🌵简介
