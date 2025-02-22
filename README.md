@@ -3,7 +3,7 @@
 
 # [PanguSync 8.7 官方正版下载](https://pan.baidu.com/s/1WesHaKGO7uQMhPNE-BTDmg?pwd=abcd#list/path=%2F)【[$\color{blue}{版本更新说明}$](https://gitee.com/AaronE_2890620459/pangu-sync/wikis/pages)】
 
-<img src="主界面.png"   />
+<img src="主界面.png" width="800px"  />
 
 ##   🌵简介
 针对全量比对型软件的效率低、日志型软件的配置复杂等缺点，PanguSync独创了一种新型数据库增量同步技术，具有上手容易、性能稳定等优点。Mysql/Sqlserver数据库同步爱好者一旦使用该软件，将如获至宝，就如修行者获得了一本门槛极低的高等修行功法。
