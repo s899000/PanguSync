@@ -1,6 +1,6 @@
 
 
-# 👉 [PanguSync 8.7 官方正版下载](https://pan.baidu.com/s/1WesHaKGO7uQMhPNE-BTDmg?pwd=abcd#list/path=%2F)【[$\color{blue}{版本更新说明}$](https://gitee.com/AaronE_2890620459/pangu-sync/wikis/pages)】
+# 👉  [下载](https://pan.baidu.com/s/1WesHaKGO7uQMhPNE-BTDmg?pwd=abcd#list/path=%2F) PanguSync 8.7 官方正版【[$\color{blue}{版本更新说明}$](https://gitee.com/AaronE_2890620459/pangu-sync/wikis/pages)】
 
 <img src="主界面.png" width="500px" />
 
