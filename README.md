@@ -78,7 +78,7 @@
 
 ### ㊙️关于开机自启动
 - 将软件设置为快捷方式，然后Win+R输入shell:startup，将快捷方式拖入该目录
-- Win+R输入control userpasswords2，取消要使用本计算机，用户必须输入用户名和密码
+- Win+R输入control userpasswords2，取消【要使用本计算机，用户必须输入用户名和密码】
 - 付费版可以自动运行任务，在Config文件夹下面添加一个AutoStart.txt文件即可
 
 
