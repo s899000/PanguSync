@@ -1,6 +1,6 @@
 
 
-# 👉PanguSync 8.7 [下载地址](https://pan.baidu.com/s/1WesHaKGO7uQMhPNE-BTDmg?pwd=abcd#list/path=%2F)
+# 👉PanguSync 8.8 [下载地址](https://pan.baidu.com/s/1WesHaKGO7uQMhPNE-BTDmg?pwd=abcd#list/path=%2F)
 
 <img src="主界面.png" width="500px" />
 
