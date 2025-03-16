@@ -13,7 +13,7 @@
 1. 购买方式：微信【vicecity2】、支付宝、银行卡、淘宝
 2. 可签[**合同**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)，可开[**发票**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)
 3. 一机一码
-4. **$\color{red}{白嫖}$$\color{blue}{砍价}$可在右上点⭐️，每个⭐️可抵扣$\color{green}{￥100}$，抵扣后不开发票** 
+
 
 
 
