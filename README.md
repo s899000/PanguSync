@@ -54,7 +54,7 @@
 
 
 
- ### 📜教程
+ ### 📜道法导学
 - 🔥[**_PanguSync,一款windows数据库同步软件_**](https://zhuanlan.zhihu.com/p/680995986)
 - 🔥[**_一款超好用的增量数据准实时同步工具PanguSync_**](https://zhuanlan.zhihu.com/p/686039921)
 - 🌈[**_PanguSync常见错误解决方法_** ](https://blog.csdn.net/sss899000/article/details/139549129)
