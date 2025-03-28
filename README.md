@@ -58,7 +58,8 @@
 - 🔥[**_PanguSync,一款windows数据库同步软件_**](https://zhuanlan.zhihu.com/p/680995986)
 - 🔥[**_一款超好用的增量数据准实时同步工具PanguSync_**](https://zhuanlan.zhihu.com/p/686039921)
 - 🙎[**_数据库同步中间件PanguSync：黄花大闺女般的初体验_**](https://blog.csdn.net/sss899000/article/details/146512375)
-- 🌈[**_PanguSync常见错误解决方法_** ](https://blog.csdn.net/sss899000/article/details/139549129)
+- 🌈[**_PanguSync常见错误解决方法_**](https://blog.csdn.net/sss899000/article/details/139549129)
+- [**_如何跳过初始数据直接进行增量同步_**](https://blog.csdn.net/sss899000/article/details/146609891)
 
 
 
