@@ -40,8 +40,8 @@
 
 ### 🔰如何注册(无需联网)
  **购买时提供硬件序列号，收到注册码后，在文本框内填入，点击注册** 
+<br><img src="序列号.png" width="400px"/> <img src="注册码.png" width="400px"  />
 
-<img src="序列号.png" width="400px"/> <img src="注册码.png" width="400px"  />
 
 
 
