@@ -60,7 +60,7 @@
 - 🙎[**_数据库同步中间件PanguSync：黄花大闺女般的初体验_**](https://blog.csdn.net/sss899000/article/details/146512375)
 - 🌈[**_PanguSync常见错误解决方法_**](https://blog.csdn.net/sss899000/article/details/139549129)
 - 🚴[**_如何跳过初始数据直接进行增量同步_**](https://blog.csdn.net/sss899000/article/details/146609891)
-- 🐾[**_关于字段自动映射功能的说明_**](https://blog.csdn.net/sss899000/article/details/146909189)
+- 👫[**_关于字段自动映射功能的说明_**](https://blog.csdn.net/sss899000/article/details/146909189)
 
 
 
