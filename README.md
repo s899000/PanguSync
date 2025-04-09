@@ -23,6 +23,7 @@
 
 
 
+
 |  |试用版|体验版|专业版 | 企业版  | 至尊版 |
 |---|---|---|---|---|---|
 | **$\color{red}{1}$个注册码售价**  |免费  | **￥499**<br> $\color{blue}{联系微信购买 }$   |  **￥1000** <br>[**[购买]**](https://item.taobao.com/item.htm?ft=t&id=754824495442)|   **￥1500** <br>[**[购买]**](https://item.taobao.com/item.htm?id=761877111372)|   **￥1600** <br> [**[购买]**](https://item.taobao.com/item.htm?ft=t&id=767418824294) |
