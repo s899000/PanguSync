@@ -9,7 +9,7 @@
 PanguSync has developed a new database incremental synchronization technology that addresses the drawbacks of high latency and energy consumption in full volume comparison software, as well as the complex configuration of log software. This technology has the advantages of easy configuration, low latency, low energy consumption, and high error tolerance. Once the source changes, it can be synchronized to the target in near real time, suitable for applications with daily increments of around tens of millions. Once Mysql/SQL Server database synchronization enthusiasts use this software, they will feel like they have found a treasure, just like a cultivator obtaining an extremely low threshold advanced cultivation technique.
 
 ##  ☀️爽快人购买 Buy
-1. 购买方式：微信【vicecity2】、支付宝、银行卡、淘宝、[Paypal](https://www.paypal.com/paypalme/hotstandby?country.x=C2) 
+1. 购买方式：微信【vicecity2】、支付宝、银行卡、淘宝 
 2. 可签[**合同**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)，可开[**发票**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)
 3. 一机一码
 
