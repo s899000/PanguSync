@@ -40,6 +40,7 @@ PanguSync has developed a new database incremental synchronization technology th
 
 ### 🔰如何注册(无需联网) How to register (without internet connection)
  **购买时提供硬件序列号，收到注册码后，在文本框内填入，点击注册** 
+When purchasing, provide the hardware id. After receiving the registration code, fill it in the text box and click register
 <br><img src="序列号.png" width="400px"/> <img src="注册码.png" width="400px"  />
 
 
@@ -50,12 +51,12 @@ PanguSync has developed a new database incremental synchronization technology th
 
 
 ### 💪核心优势 Core advantages
-- ♋️同步姿势多样
-- 💦小白3秒上手
-- 👢自动处理目标端自增主键错位
-- 🔒自动处理外键约束冲突(父子表都需要配置任务)
-- 🔑自动处理唯一键或唯一索引冲突(同类型数据库)
-- 📈支持断点续传
+- ♋️同步姿势多样 Diverse synchronized postures
+- 💦小白3秒上手 Rookie 3 seconds to get started
+- 👢自动处理目标端自增主键错位 Automatically handle the misalignment of self increasing primary keys on the target end
+- 🔒自动处理外键约束冲突(父子表都需要配置任务) Automatically handle foreign key constraint conflicts (both parent and child tables require configuration tasks)
+- 🔑自动处理唯一键或唯一索引冲突(同类型数据库) Automatically handle unique key or unique index conflicts (for databases of the same type)
+- 📈支持断点续传 Support breakpoint continuation
 
 
 
