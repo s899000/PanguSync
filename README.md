@@ -3,9 +3,9 @@
 ![主界面](https://github.com/user-attachments/assets/0dabde5c-630e-47a5-8d04-f5927bc755be)
 
 
-##   🌵简介 brief introduction
+##   🌵简介 Brief introduction
 针对全量比对型软件的高延迟高能耗、日志型软件的配置复杂等缺点，PanguSync独创了一种新型数据库增量同步技术，具备易配置、低延迟、低能耗、高容错等优点。源一旦发生变化，可准实时同步到目标，适合日增量在千万级左右的应用。Mysql/Sqlserver数据库同步爱好者一旦使用该软件，将如获至宝，就如修行者获得了一本门槛极低的高等修行功法。
-##  ☀️爽快人购买 buy
+##  ☀️爽快人购买 Buy
 1. 购买方式：微信【vicecity2】、支付宝、银行卡、淘宝
 2. 可签[**合同**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)，可开[**发票**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)
 3. 一机一码
@@ -60,7 +60,7 @@
 
 
 
- ### 📜教程 tutorial
+ ### 📜教程 Tutorial
 - 🔥[**_PanguSync,一款windows数据库同步软件_**](https://zhuanlan.zhihu.com/p/680995986)
 - 🔥[**_一款超好用的增量数据准实时同步工具PanguSync_**](https://zhuanlan.zhihu.com/p/686039921)
 - 👪[**_一主多从同步教程_**](https://blog.csdn.net/sss899000/article/details/146512375)
@@ -88,7 +88,7 @@
 
 
 
-### 🔧配置项说明 Configuration Item Description
+### 🔧配置项说明 Configuration item description
 |  配置项 | 说明  |
 |---|---|
 |  where条件 | 设置where条件后，源端新增、更新变化会先根据where条件进行筛选，符合条件的会同步到目标端，删除变化不进行where筛选  |
@@ -102,7 +102,7 @@
 |---|---|
 |  增量获取行数 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 每个周期内获取的最大源变化行数，默认2000 |
 
-### 📢注意事项 precautions
+### 📢注意事项 Precautions
 - 👿不建议开杀毒实时防控，可能会影响性能
 - ⚡️选库不选表可批量生成任务
 - 🔄【A⇆B】模式部署步骤：假设A为主节点，B为备节点，先truncate清空B节点(不要使用delete)，新建B➔A的任务，待运行成功后，再新建A➔B的任务运行，等待A➔B全量同步完成，后续进行增量同步。另外一种方法就是通过备份还原使两边初始数据完全一致，也是先部署B➔A，再部署A➔B，然后参考【[**如何跳过初始数据直接进行增量同步**](https://blog.csdn.net/sss899000/article/details/146609891)】
