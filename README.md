@@ -9,28 +9,26 @@
 PanguSync has developed a new database incremental synchronization technology that addresses the drawbacks of high latency and energy consumption in full volume comparison software, as well as the complex configuration of log software. This technology has the advantages of easy configuration, low latency, low energy consumption, and high error tolerance. Once the source changes, it can be synchronized to the target in near real time, suitable for applications with daily increments of around tens of millions. Once Mysql/SQL Server database synchronization enthusiasts use this software, they will feel like they have found a treasure, just like a cultivator obtaining an extremely low threshold advanced cultivation technique.
 
 ##  ☀️爽快人购买 Buy
-1. 购买方式：微信【vicecity2】、支付宝、银行卡、淘宝、[Paypal](https://www.paypal.com/paypalme/hotstandby?country.x=C2)
+1. 购买方式：微信【vicecity2】、支付宝、银行卡、淘宝、[Paypal](https://www.paypal.com/paypalme/hotstandby?country.x=C2) 
 2. 可签[**合同**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)，可开[**发票**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)
 3. 一机一码
-
-1. Purchase method: WeChat[vicecity2], Alipay, Bank card, Taobao、[Paypal](https://www.paypal.com/paypalme/hotstandby?country.x=C2)
-2. One machine, one code
-
-
-
-
-
-
 
 
 |  |试用版|体验版|专业版 | 企业版  | 至尊版 |
 |---|---|---|---|---|---|
-| **$\color{red}{1}$个注册码售价**  |免费  | **￥499**<br> $\color{blue}{联系微信购买 }$   |  **￥1000** <br>[**[购买]**](https://item.taobao.com/item.htm?ft=t&id=754824495442)|   **￥1500** <br>[**[购买]**](https://item.taobao.com/item.htm?id=761877111372)|   **￥1600** <br> [**[购买]**](https://item.taobao.com/item.htm?ft=t&id=767418824294) |
-| 任务数量 |  5   |50   |500   |  2000  |  不限 |
-|授权期限|   2h/次（次数不限） | 终生  &nbsp;&nbsp;&nbsp;&nbsp;  | 终生  &nbsp;&nbsp;&nbsp;&nbsp;  |  终生  &nbsp;&nbsp;&nbsp;&nbsp; |  终生  &nbsp;&nbsp;&nbsp;&nbsp; | 
-| 发票 | ❌|❌| ✔️  |✔️  |  ✔️ | 
+|**$\color{red}{1}$个注册码售价** |免费  | **$150** |  **$300**|   **$450**|   **$500**  |
+| 任务数量 |  5   |50   |500   |  2000  |  no limit |
+|授权期限|   2h/次（次数不限） | no limit  &nbsp;&nbsp;&nbsp;&nbsp;  | no limit  &nbsp;&nbsp;&nbsp;&nbsp;  |  no limit  &nbsp;&nbsp;&nbsp;&nbsp; |  no limit  &nbsp;&nbsp;&nbsp;&nbsp; | 
+ 
 
+- Purchase method: WeChat【vicecity2】, [Paypal](https://www.paypal.com/paypalme/hotstandby?country.x=C2)
+- One machine, one code
 
+|  |Trial|Play|Professional | Enterprise  | Supreme|
+|---|---|---|---|---|---|
+|    Price of $\color{red}{1}$ registration code |Free  | **￥499**<br> $\color{blue}{联系微信购买 }$   |  **￥1000** <br>[**[购买]**](https://item.taobao.com/item.htm?ft=t&id=754824495442)|   **￥1500** <br>[**[购买]**](https://item.taobao.com/item.htm?id=761877111372)|   **￥1600** <br> [**[购买]**](https://item.taobao.com/item.htm?ft=t&id=767418824294) |
+| Number of tasks |  5   |50   |500   |  2000  |  不限 |
+|Authorization period| 2 hours per session (unlimited number of times) | 终生  &nbsp;&nbsp;&nbsp;&nbsp;  | 终生  &nbsp;&nbsp;&nbsp;&nbsp;  |  终生  &nbsp;&nbsp;&nbsp;&nbsp; |  终生  &nbsp;&nbsp;&nbsp;&nbsp; | 
 
 
 ### 🔥某三甲医院云胶片热备案例($\color{red}{亿级}$)https://www.bilibili.com/video/BV14x4y167A2/?spm_id_from=333.999.0.0&vd_source=8db0f4c511ee648e595718cb636c8df7
