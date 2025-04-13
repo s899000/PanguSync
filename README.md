@@ -42,9 +42,8 @@ PanguSync has developed a new database incremental synchronization technology th
  **购买时提供硬件序列号，收到注册码后，在文本框内填入，点击注册** 
  <br> **When purchasing, send me the hardware id via email【435031783@qq.com】. After receiving the registration code, fill it in the text box and click register** 
 
-
-![1744534261852](https://github.com/user-attachments/assets/004de983-6ffe-4397-9d0c-22c5ada45e73)
-![1744534548372](https://github.com/user-attachments/assets/84f9a2b3-2bec-43ec-a35a-8ebda68872e6)
+<img src="https://github.com/user-attachments/assets/004de983-6ffe-4397-9d0c-22c5ada45e73" width="400px"> 
+<img src="https://github.com/user-attachments/assets/84f9a2b3-2bec-43ec-a35a-8ebda68872e6" width="400px"> 
 
 
 
