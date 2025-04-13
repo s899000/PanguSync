@@ -35,7 +35,7 @@
 
 
 
-### 🔥某三甲医院云胶片热备案例【$\color{red}{亿级}$】https://www.bilibili.com/video/BV14x4y167A2/?spm_id_from=333.999.0.0&vd_source=8db0f4c511ee648e595718cb636c8df7
+### 🔥某三甲医院云胶片热备案例($\color{red}{亿级}$)https://www.bilibili.com/video/BV14x4y167A2/?spm_id_from=333.999.0.0&vd_source=8db0f4c511ee648e595718cb636c8df7
 
 
 
