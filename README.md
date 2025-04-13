@@ -3,9 +3,9 @@
 ![主界面](https://github.com/user-attachments/assets/0dabde5c-630e-47a5-8d04-f5927bc755be)
 
 
-##   🌵简介
+##   🌵简介 brief introduction
 针对全量比对型软件的高延迟高能耗、日志型软件的配置复杂等缺点，PanguSync独创了一种新型数据库增量同步技术，具备易配置、低延迟、低能耗、高容错等优点。源一旦发生变化，可准实时同步到目标，适合日增量在千万级左右的应用。Mysql/Sqlserver数据库同步爱好者一旦使用该软件，将如获至宝，就如修行者获得了一本门槛极低的高等修行功法。
-##  ☀️爽快人购买
+##  ☀️爽快人购买 buy
 1. 购买方式：微信【vicecity2】、支付宝、银行卡、淘宝
 2. 可签[**合同**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)，可开[**发票**](https://pan.baidu.com/s/1U7jMJv-76q36T6diGwAVug?pwd=abcd#list/path=%2F)
 3. 一机一码
@@ -37,7 +37,7 @@
 
 
 
-### 🔰如何注册(无需联网)
+### 🔰如何注册(无需联网) How to register (without internet connection)
  **购买时提供硬件序列号，收到注册码后，在文本框内填入，点击注册** 
 <br><img src="序列号.png" width="400px"/> <img src="注册码.png" width="400px"  />
 
@@ -48,7 +48,7 @@
 
 
 
-### 💪核心优势
+### 💪核心优势 Core advantages
 - ♋️同步姿势多样
 - 💦小白3秒上手
 - 👢自动处理目标端自增主键错位
@@ -60,7 +60,7 @@
 
 
 
- ### 📜教程
+ ### 📜教程 tutorial
 - 🔥[**_PanguSync,一款windows数据库同步软件_**](https://zhuanlan.zhihu.com/p/680995986)
 - 🔥[**_一款超好用的增量数据准实时同步工具PanguSync_**](https://zhuanlan.zhihu.com/p/686039921)
 - 👪[**_一主多从同步教程_**](https://blog.csdn.net/sss899000/article/details/146512375)
@@ -76,7 +76,7 @@
 
 
 
-### 🔯同步模式
+### 🔯同步模式 Synchronous mode
 
 | 模式| 示例 |支持|适用场景| 注意事项 |
 |---|---|---|---|---|
@@ -88,7 +88,7 @@
 
 
 
-### 🔧配置项说明
+### 🔧配置项说明 Configuration Item Description
 |  配置项 | 说明  |
 |---|---|
 |  where条件 | 设置where条件后，源端新增、更新变化会先根据where条件进行筛选，符合条件的会同步到目标端，删除变化不进行where筛选  |
@@ -97,12 +97,12 @@
 |  字段映射| 该选项仅在源和目标是同类型数据库的情况下生效。勾选该选项后，可以实现字段自动映射功能而无需重新编辑任务，比如同步任务A➔B，A中添加一个新字段Column1后，只需要在B中也添加相同名称的字段Column1，即可实现新字段的同步。如果源和目标字段完全一样，则建议勾选此项。如果源和目标字段名称大多数不一样，则不建议勾选此项，避免源新增字段名称刚好和目标的某个字段名称一样，就自动映射了，但也许这个字段你并不想映射到目标的同名字段 |
 
 
-### 🌎全局参数
+### 🌎全局参数 Global parameters
 |  参数| 说明  |
 |---|---|
 |  增量获取行数 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 每个周期内获取的最大源变化行数，默认2000 |
 
-### 📢注意事项
+### 📢注意事项 precautions
 - 👿不建议开杀毒实时防控，可能会影响性能
 - ⚡️选库不选表可批量生成任务
 - 🔄【A⇆B】模式部署步骤：假设A为主节点，B为备节点，先truncate清空B节点(不要使用delete)，新建B➔A的任务，待运行成功后，再新建A➔B的任务运行，等待A➔B全量同步完成，后续进行增量同步。另外一种方法就是通过备份还原使两边初始数据完全一致，也是先部署B➔A，再部署A➔B，然后参考【[**如何跳过初始数据直接进行增量同步**](https://blog.csdn.net/sss899000/article/details/146609891)】
@@ -112,7 +112,7 @@
 
 
 
-### ㊙️关于开机自启动
+### ㊙️关于开机自启动 Regarding the self startup upon startup
 - 将软件设置为快捷方式，然后Win+R输入shell:startup，将快捷方式拖入该目录
 - Win+R输入control userpasswords2，取消【要使用本计算机，用户必须输入用户名和密码】
 - 付费版可以自动运行任务，在Config文件夹下面添加一个AutoStart.txt文件即可
