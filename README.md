@@ -40,8 +40,8 @@ PanguSync has developed a new database incremental synchronization technology th
 
 ### 🔰如何注册(无需联网) How to register (without internet connection)
  **购买时提供硬件序列号，收到注册码后，在文本框内填入，点击注册** 
- 
- **When purchasing, provide the hardware id. After receiving the registration code, fill it in the text box and click register** 
+ <br> **When purchasing, provide the hardware id. After receiving the registration code, fill it in the text box and click register** 
+
 <br><img src="序列号.png" width="400px"/> <img src="注册码.png" width="400px"  />
 
 
@@ -84,10 +84,10 @@ PanguSync has developed a new database incremental synchronization technology th
 | 模式 Mode| 示例 Example |支持 Support|适用场景 Applicable scenarios| 注意事项 Precautions|
 |---|---|---|---|---|
 | 单向 <br>one-way| A➔B |✔️  |A写B读<br> A Write B Read|/|
-| 双向 <br>two-way|A⇆B|✔️  |数据双机热备【非双写场景】<br>Data dual machine hot backup [non dual write scenario]|Please uncheck 'Special Mode' in the editing interface|
+| 双向 <br>two-way|A⇆B|✔️  |数据双机热备【非双写场景】<br>Data dual machine hot backup [non dual write scenario]| 编辑界面请不要勾选【特殊模式】<br>Please uncheck 'Special Mode' in the editing interface|
 | 广播<br> broadcast|A➔B，A➔C，...，A➔Z|✔️  |A写N读<br> A write N read|/|
-| 链式<br> Chain type| A➔B➔C➔......➔Z |✔️  |A写N读<br> A write N read|Please check 'Special Mode' in the editing interface|
-| 链式扩展 <br>Chain extension| ![输入图片说明](%E5%8D%95%E5%90%91%E6%A0%91%E5%BD%A2.png) |✔️  |A写N读 <br> A write N read|Please check 'Special Mode' in the editing interface|
+| 链式<br> Chain type| A➔B➔C➔......➔Z |✔️  |A写N读<br> A write N read|编辑界面请勾选【特殊模式】<br>Please check 'Special Mode' in the editing interface|
+| 链式扩展 <br>Chain extension| ![输入图片说明](%E5%8D%95%E5%90%91%E6%A0%91%E5%BD%A2.png) |✔️  |A写N读 <br> A write N read|编辑界面请勾选【特殊模式】<br>Please check 'Special Mode' in the editing interface|
 
 
 
