@@ -44,7 +44,8 @@ PanguSync has developed a new database incremental synchronization technology th
 
 
 ![1744534261852](https://github.com/user-attachments/assets/004de983-6ffe-4397-9d0c-22c5ada45e73)
- <img src="注册码.png" width="400px"  />
+![1744534548372](https://github.com/user-attachments/assets/84f9a2b3-2bec-43ec-a35a-8ebda68872e6)
+
 
 
 
