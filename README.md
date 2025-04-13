@@ -1,11 +1,5 @@
 
 
-# 👉PanguSync 8.21 [下载地址](https://pan.baidu.com/s/1WesHaKGO7uQMhPNE-BTDmg?pwd=abcd#list/path=%2F)
-
-<img src="主界面.png" width="500px" />
-
-#### 📘【版权声明】本软件是PanguHA的子模块，受著作权法严格保护，任何未经授权的反编译、篡改、二次售卖均构成盗版行为，我们将依法追究相关责任人的法律责任！！！
-<img src="copyrights.png" width="100px"  />
 
 ##   🌵简介
 针对全量比对型软件的高延迟高能耗、日志型软件的配置复杂等缺点，PanguSync独创了一种新型数据库增量同步技术，具备易配置、低延迟、低能耗、高容错等优点。源一旦发生变化，可准实时同步到目标，适合日增量在千万级左右的应用。Mysql/Sqlserver数据库同步爱好者一旦使用该软件，将如获至宝，就如修行者获得了一本门槛极低的高等修行功法。
