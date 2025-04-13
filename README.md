@@ -40,10 +40,11 @@ PanguSync has developed a new database incremental synchronization technology th
 
 ### 🔰如何注册(无需联网) How to register (without internet connection)
  **购买时提供硬件序列号，收到注册码后，在文本框内填入，点击注册** 
- <br> **When purchasing, provide the hardware id. After receiving the registration code, fill it in the text box and click register** 
+ <br> **When purchasing, send me the hardware id via email【435031783@qq.com】. After receiving the registration code, fill it in the text box and click register** 
 
-<br><img src="序列号.png" width="400px"/> <img src="注册码.png" width="400px"  />
 
+![1744534261852](https://github.com/user-attachments/assets/004de983-6ffe-4397-9d0c-22c5ada45e73)
+ <img src="注册码.png" width="400px"  />
 
 
 
