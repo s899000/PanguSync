@@ -29,11 +29,11 @@ PanguSync has developed a new database incremental synchronization technology th
 |---|---|---|---|---|---|
 |  Price of $\color{red}{1}$ registration code| Free  | **$150** |  **$300**|   **$450**|   **$500**  |
 | Number of tasks |  5   |50   |500   |  2000  |   no limit  |
-|Authorization period| 2 hours per session (unlimited number of times) | no limit  &nbsp;&nbsp;&nbsp;&nbsp;  | no limit  &nbsp;&nbsp;&nbsp;&nbsp;  |  no limit  &nbsp;&nbsp;&nbsp;&nbsp; |  no limit  &nbsp;&nbsp;&nbsp;&nbsp; | 
+|Authorization period| 2 hours per session (unlimited number of times) | no limit  | no limit   |  no limit |  no limit  | 
 
 
 ### 🔥某三甲医院云胶片热备案例($\color{red}{亿级}$)https://www.bilibili.com/video/BV14x4y167A2/?spm_id_from=333.999.0.0&vd_source=8db0f4c511ee648e595718cb636c8df7
-
+### Cloud film hot backup case in a tertiary hospital【Billion Level】  https://www.bilibili.com/video/BV14x4y167A2/?spm_id_from=333.999.0.0&vd_source=8db0f4c511ee648e595718cb636c8df7
 
 
 
