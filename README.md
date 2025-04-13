@@ -33,7 +33,7 @@ PanguSync has developed a new database incremental synchronization technology th
 
 
 ### 🔥某三甲医院云胶片热备案例($\color{red}{亿级}$)https://www.bilibili.com/video/BV14x4y167A2/?spm_id_from=333.999.0.0&vd_source=8db0f4c511ee648e595718cb636c8df7
-### Cloud film hot backup case in a tertiary hospital【Billion Level】  https://www.bilibili.com/video/BV14x4y167A2/?spm_id_from=333.999.0.0&vd_source=8db0f4c511ee648e595718cb636c8df7
+### Cloud film hot backup case in a tertiary hospital ($\color{red}{one}$ $\color{red}{hundred}$ $\color{red}{million}$  $\color{red}{level}$) https://www.bilibili.com/video/BV14x4y167A2/?spm_id_from=333.999.0.0&vd_source=8db0f4c511ee648e595718cb636c8df7
 
 
 
