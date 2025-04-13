@@ -83,11 +83,11 @@ PanguSync has developed a new database incremental synchronization technology th
 
 | 模式 Mode| 示例 Example |支持 Support|适用场景 Applicable scenarios| 注意事项 Precautions|
 |---|---|---|---|---|
-| 单向 one-way| A➔B |✔️  |A写B读 A Write B Read|/|
-| 双向 two-way|A⇆B|✔️  |数据双机热备【非双写场景】Data dual machine hot backup [non dual write scenario]|编辑界面请❌【特殊模式】|
-| 广播 broadcast|A➔B，A➔C，...，A➔Z|✔️  |A写N读 A write N read|/|
-| 链式 Chain type| A➔B➔C➔......➔Z |✔️  |A写N读 A write N read|编辑界面请✔️【特殊模式】|
-| 链式扩展 Chain extension| ![输入图片说明](%E5%8D%95%E5%90%91%E6%A0%91%E5%BD%A2.png) |✔️  |A写N读|编辑界面请✔️【特殊模式】|
+| 单向 <br>one-way| A➔B |✔️  |A写B读<br> A Write B Read|/|
+| 双向 <br>two-way|A⇆B|✔️  |数据双机热备【非双写场景】<br>Data dual machine hot backup [non dual write scenario]|Please uncheck 'Special Mode' in the editing interface|
+| 广播<br> broadcast|A➔B，A➔C，...，A➔Z|✔️  |A写N读<br> A write N read|/|
+| 链式<br> Chain type| A➔B➔C➔......➔Z |✔️  |A写N读<br> A write N read|Please check 'Special Mode' in the editing interface|
+| 链式扩展 <br>Chain extension| ![输入图片说明](%E5%8D%95%E5%90%91%E6%A0%91%E5%BD%A2.png) |✔️  |A写N读 <br> A write N read|Please check 'Special Mode' in the editing interface|
 
 
 
