@@ -1,5 +1,6 @@
 
-![主界面](https://github.com/user-attachments/assets/bb961c09-5ec6-42d2-aca3-1fbfec8c17b2)
+
+![主界面](https://github.com/user-attachments/assets/0dabde5c-630e-47a5-8d04-f5927bc755be)
 
 
 ##   🌵简介
