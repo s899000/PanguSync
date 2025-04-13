@@ -16,19 +16,20 @@ PanguSync has developed a new database incremental synchronization technology th
 
 |  |试用版|体验版|专业版 | 企业版  | 至尊版 |
 |---|---|---|---|---|---|
-|**$\color{red}{1}$个注册码售价** |免费  | **$150** |  **$300**|   **$450**|   **$500**  |
-| 任务数量 |  5   |50   |500   |  2000  |  no limit |
-|授权期限|   2h/次（次数不限） | no limit  &nbsp;&nbsp;&nbsp;&nbsp;  | no limit  &nbsp;&nbsp;&nbsp;&nbsp;  |  no limit  &nbsp;&nbsp;&nbsp;&nbsp; |  no limit  &nbsp;&nbsp;&nbsp;&nbsp; | 
+| **$\color{red}{1}$个注册码售价**  |免费 | **￥499**<br> $\color{blue}{联系微信购买 }$   |  **￥1000** <br>[**[购买]**](https://item.taobao.com/item.htm?ft=t&id=754824495442)|   **￥1500** <br>[**[购买]**](https://item.taobao.com/item.htm?id=761877111372)|   **￥1600** <br> [**[购买]**](https://item.taobao.com/item.htm?ft=t&id=767418824294) |
+| 任务数量 |  5   |50   |500   |  2000  | 不限|
+|授权期限|   2h/次（次数不限） |  终生 &nbsp;&nbsp;&nbsp;&nbsp;  | 终生  &nbsp;&nbsp;&nbsp;&nbsp;  |  终生  &nbsp;&nbsp;&nbsp;&nbsp; |  终生  &nbsp;&nbsp;&nbsp;&nbsp; | 
  
 
 - Purchase method: WeChat【vicecity2】, [Paypal](https://www.paypal.com/paypalme/hotstandby?country.x=C2)
 - One machine, one code
+- Send the hardware id and payment record via email【435031783@qq.com】 to receive the registration code
 
 |  |Trial|Play|Professional | Enterprise  | Supreme|
 |---|---|---|---|---|---|
-|    Price of $\color{red}{1}$ registration code |Free  | **￥499**<br> $\color{blue}{联系微信购买 }$   |  **￥1000** <br>[**[购买]**](https://item.taobao.com/item.htm?ft=t&id=754824495442)|   **￥1500** <br>[**[购买]**](https://item.taobao.com/item.htm?id=761877111372)|   **￥1600** <br> [**[购买]**](https://item.taobao.com/item.htm?ft=t&id=767418824294) |
-| Number of tasks |  5   |50   |500   |  2000  |  不限 |
-|Authorization period| 2 hours per session (unlimited number of times) | 终生  &nbsp;&nbsp;&nbsp;&nbsp;  | 终生  &nbsp;&nbsp;&nbsp;&nbsp;  |  终生  &nbsp;&nbsp;&nbsp;&nbsp; |  终生  &nbsp;&nbsp;&nbsp;&nbsp; | 
+|  Price of $\color{red}{1}$ registration code| Free  | **$150** |  **$300**|   **$450**|   **$500**  |
+| Number of tasks |  5   |50   |500   |  2000  |   no limit  |
+|Authorization period| 2 hours per session (unlimited number of times) | no limit  &nbsp;&nbsp;&nbsp;&nbsp;  | no limit  &nbsp;&nbsp;&nbsp;&nbsp;  |  no limit  &nbsp;&nbsp;&nbsp;&nbsp; |  no limit  &nbsp;&nbsp;&nbsp;&nbsp; | 
 
 
 ### 🔥某三甲医院云胶片热备案例($\color{red}{亿级}$)https://www.bilibili.com/video/BV14x4y167A2/?spm_id_from=333.999.0.0&vd_source=8db0f4c511ee648e595718cb636c8df7
