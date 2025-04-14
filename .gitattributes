@@ -1,4 +1,1 @@
-*.js linguist-language=csharp
-*.css linguist-language=csharp
-*.html linguist-language=csharp
 *.exe linguist-language=csharp
