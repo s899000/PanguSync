@@ -48,7 +48,7 @@ PanguSync has developed a new database incremental synchronization technology th
 
 
 
-### 🔧配置项说明 Configuration item description
+### 🔧Configuration item description
 |  configuration items | describe  |
 |---|---|
 |  Condition |After setting the 'where' condition, new and updated changes on the source end will be filtered based on the 'where' condition first. Those that meet the condition will be synchronized to the target end, and changes that are deleted will not be filtered by the 'where' condition  |
