@@ -74,7 +74,7 @@ PanguSync has developed a new database incremental synchronization technology th
 
 ### ㊙️Regarding the self startup upon startup
 - Set the software as a shortcut, then [Win+R] enter [shell: startup] and drag the shortcut into the directory
-- Win+R input control 'userpasswords2', cancel 'To use this computer, the user must enter a username and password'
+- Win+R input 'control userpasswords2', cancel 'To use this computer, the user must enter a username and password'
 - The paid version can automatically run tasks. Simply add an AutoStart.txt file to the 'Config' folder
 
 
