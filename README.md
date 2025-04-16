@@ -1,6 +1,7 @@
 
+![主界面](https://github.com/user-attachments/assets/d19f8dd3-2102-42a1-aef8-7b7523cfd35f)
 
-![主界面](https://github.com/user-attachments/assets/0dabde5c-630e-47a5-8d04-f5927bc755be)
+
 
 
 ##   🌵Brief introduction
