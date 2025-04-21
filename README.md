@@ -63,6 +63,7 @@ PanguSync has developed a new database incremental synchronization technology th
 |  parameters| describe  |
 |---|---|
 | Incremental get rows| The maximum number of source change rows obtained in each cycle, default to 2000 |
+| Max threads| How many threads should be used to run all tasks without setting separate threads for each task? For example, setting up 4 threads to run 1000 tasks can save a lot of CPU resources. It can be set according to the actual CPU situation to achieve a perfect intermediate state of synchronization speed and energy consumption |
 
 ### 📢Precautions
 - 👿It is not recommended to enable real-time antivirus prevention and control, as it may affect performance
