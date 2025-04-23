@@ -21,7 +21,8 @@ PanguSync has developed a new database incremental synchronization technology th
 |Authorization period| 2 hours per session (unlimited number of times) | no limit  | no limit   |  no limit |  no limit  | 
 
 
-### 🔥Case of data synchronization in a ERP system https://www.bilibili.com/video/BV1KSygYxEs5/?vd_source=8db0f4c511ee648e595718cb636c8df7
+### 🔥Case of data synchronization in a ERP system
+https://www.bilibili.com/video/BV1KSygYxEs5/?vd_source=8db0f4c511ee648e595718cb636c8df7
 
 ### 🔰How to register (without internet connection)
 **When purchasing, send me the hardware id via email【435031783@qq.com】. After receiving the registration code, fill it in the text box and click register** 
