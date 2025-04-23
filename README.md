@@ -20,7 +20,7 @@ PanguSync has developed a new database incremental synchronization technology th
 | Number of tasks |  5   |50   |500   |  2000  |   no limit  |
 |Authorization period| 2 hours per session (unlimited number of times) | no limit  | no limit   |  no limit |  no limit  | 
 
-### Cloud film hot backup case in a tertiary hospital ($\color{red}{one}$ $\color{red}{hundred}$ $\color{red}{million}$  $\color{red}{level}$) https://www.bilibili.com/video/BV14x4y167A2/?spm_id_from=333.999.0.0&vd_source=8db0f4c511ee648e595718cb636c8df7
+
 
 
 ### 🔰How to register (without internet connection)
@@ -40,7 +40,7 @@ PanguSync has developed a new database incremental synchronization technology th
 | two-way|A⇆B|✔️  |Data dual machine hot backup [non dual write scenario]| Please uncheck 'Special Mode' in the editing interface|
 |  broadcast|A➔B，A➔C，...，A➔Z|✔️  |A write N read|/|
 | Chain type| A➔B➔C➔......➔Z |✔️  |A write N read|Please check 'Special Mode' in the editing interface|
-| Chain extension| ![输入图片说明](%E5%8D%95%E5%90%91%E6%A0%91%E5%BD%A2.png) |✔️  |A write N read|Please check 'Special Mode' in the editing interface|
+| Chain extension| <img src="单向树形.png"> |✔️  |A write N read|Please check 'Special Mode' in the editing interface|
 
 
 
