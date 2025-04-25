@@ -15,7 +15,7 @@ PanguSync has developed a new database incremental synchronization technology th
 
 |  |Trial|Starter|Personal|Professional | Enterprise  | Supreme|
 |---|---|---|---|---|---|---|
-|  Price of $\color{red}{1}$ registration code| Free | **$65** | **$125** |  **$250**|   **$500**|   **$750**  |
+|  Price of $\color{red}{1}$ registration code| Free | **$60** | **$120** |  **$250**|   **$500**|   **$750**  |
 | Number of tasks |  5 |50  |100   |500   |  2000  |   no limit  |
 |Authorization period| 2 hours per session (unlimited number of times) | no limit | no limit  | no limit   |  no limit |  no limit  | 
 
