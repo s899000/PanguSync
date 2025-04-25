@@ -1,8 +1,7 @@
 
 
 
-![主界面](https://github.com/user-attachments/assets/88c689f6-f820-458f-9de5-699b9a9c76b6)
-
+<img src="主界面.png">
 
 
 
@@ -26,8 +25,8 @@ https://www.bilibili.com/video/BV1KSygYxEs5/?vd_source=8db0f4c511ee648e595718cb6
 
 ### 🔰How to register (without internet connection)
 **When purchasing, send me the hardware id via email【435031783@qq.com】. After receiving the registration code, fill it in the text box and click register** 
-<br><img src="https://github.com/user-attachments/assets/004de983-6ffe-4397-9d0c-22c5ada45e73" width="400px"> 
-<img src="https://github.com/user-attachments/assets/84f9a2b3-2bec-43ec-a35a-8ebda68872e6" width="400px"> 
+<br><img src="序列号.png" width="400px"> 
+<img src="注册码.png" width="400px"> 
 
 
 
