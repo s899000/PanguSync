@@ -14,10 +14,10 @@ PanguSync has developed a new database incremental synchronization technology th
 - One machine, one code
 - Send the hardware id and payment record via email【435031783@qq.com】 to receive the registration code
 
-|  |Trial|Play|Professional | Enterprise  | Supreme|
+|  |Trial|Personal|Professional | Enterprise  | Supreme|
 |---|---|---|---|---|---|
-|  Price of $\color{red}{1}$ registration code| Free  | **$150** |  **$300**|   **$450**|   **$500**  |
-| Number of tasks |  5   |50   |500   |  2000  |   no limit  |
+|  Price of $\color{red}{1}$ registration code| Free  | **$125** |  **$250**|   **$500**|   **$750**  |
+| Number of tasks |  5   |100   |500   |  2000  |   no limit  |
 |Authorization period| 2 hours per session (unlimited number of times) | no limit  | no limit   |  no limit |  no limit  | 
 
 
