@@ -15,9 +15,9 @@ PanguSync has developed a new database incremental synchronization technology th
 
 |  |Trial| Subscription| Supreme|
 |---|---|---|---|
-|  Price| Free |   **$1.5/Task**  | **$300**  |
+|  Price| Free |   **$5 per task**  | **$300**  |
 | Number of tasks |  5| Purchase on demand |   no limit  |
-|Authorization period| 2 hours per session (unlimited number of times)  |  no limit  | no limit  | 
+|Authorization period| 2 hours per session (unlimited number of times)  |  no limit   | no limit&nbsp;&nbsp;&nbsp;&nbsp; | 
 
 
 ### 🔥Case of data synchronization in a ERP system
