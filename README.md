@@ -25,8 +25,6 @@ https://www.bilibili.com/video/BV1KSygYxEs5/?vd_source=8db0f4c511ee648e595718cb6
 
 ### 🔰How to register (without internet connection)
 **When purchasing, send me the hardware id via email【435031783@qq.com】. After receiving the registration code, fill it in the text box and click register** 
-<br><img src="序列号.png" width="400px"> 
-<img src="注册码.png" width="400px"> 
 
 
 
