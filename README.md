@@ -10,8 +10,8 @@ PanguSync has developed a new database incremental synchronization technology th
 
 
 
-### 🔥Case of data synchronization in a ERP system
-https://www.bilibili.com/video/BV1KSygYxEs5/?vd_source=8db0f4c511ee648e595718cb636c8df7
+### 🔥Incremental synchronization case
+https://www.bilibili.com/video/BV1TmvPz8EhF/?vd_source=8db0f4c511ee648e595718cb636c8df7
 
 
 
