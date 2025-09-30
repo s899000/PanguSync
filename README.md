@@ -37,6 +37,15 @@ https://www.bilibili.com/video/BV1TmvPz8EhF/?vd_source=8db0f4c511ee648e595718cb6
 
 
 
+### 🔰Authorized purchase
+【Paypal】https://paypal.me/hotstandby<br>
+【Email】435031783@qq.com
+
+|   | 试用版  | package 1 | package 2 | package 3 | package 4  | package 5 | Professional| Ultimate  | 
+|---|---|---|---|---|---|---|---|---|
+|  价格/套 |  **free**   |   **$12** |   **$30** | **$43**| **$57** |**$85** | **$113** |  **$141**  | 
+| 任务数|  2 | 10| 30| 50| 100 | 300| 500 |  不限 |
+| 授权期限|  1h/次<br>(Unlimited trial) |  forever |  forever | forever |forever |forever |forever |forever |
 
 
 
