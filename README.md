@@ -39,11 +39,11 @@ https://www.bilibili.com/video/BV1TmvPz8EhF/?vd_source=8db0f4c511ee648e595718cb6
 
 ### 🔰License Purchase
 
-|   | Trial   | v1 | v2| v3  | v4 | Professional| Ultimate  | 
-|---|---|---|---|---|---|---|---|
-|  **Price** |  **free**  | **$60** | **$86**| **$114** |**$170** | **$226** |  **$282**  | 
-| **Task Num**|  2 | 30| 50| 100 | 300| 500 |  不限 |
-| **Authorization Period**|  1 hour each time<br>(Unlimited trial) |  forever |  forever | forever |forever |forever |forever |
+|   | Trial | v1| v2  | v3 | Professional| Ultimate  | 
+|---|---|---|---|---|---|---|
+|  **Price** |  **free**  | **$43**| **$57** |**$85** | **$113** |  **$141**  | 
+| **Task Num**|  2 | 50| 100 | 300| 500 |  不限 |
+| **Authorization Period**|  1 hour each time<br>(Unlimited trial) |  forever |  forever | forever |forever |forever |
 
 ### Paypal
 https://paypal.me/hotstandby
