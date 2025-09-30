@@ -6,7 +6,7 @@
 
 
 ##   🌵Brief introduction
-PanguSync has developed a new database incremental synchronization technology that addresses the drawbacks of high latency and energy consumption in full volume comparison software, as well as the complex configuration of log software. This technology has the advantages of easy configuration, low latency, low energy consumption, and high error tolerance. Once the source changes, it can be synchronized to the target in near real time, suitable for applications with daily increments of around tens of millions. Once Mysql/SQL Server database synchronization enthusiasts use this software, they will feel like they have found a treasure, just like a cultivator obtaining an extremely low threshold advanced cultivation technique.
+PanguSync has created a database incremental synchronization technology that not only solves the high energy consumption and high latency of full comparison software, but also avoids the complex configuration of logging software. It does not require CDC/Binlog to obtain SQL server/MySQL incremental changes (insert, update, delete) in milliseconds. On this basis, multiple synchronization modes are adapted, supporting bidirectional [A ⇆ B], broadcast [A → B, A → C], and chain [A → B → C]. In order to ensure supreme stability, functions such as self increasing primary key error correction, bidirectional reflux blocking, unique constraint error correction, foreign key constraint error correction, and segment detection mapping are built-in.
 
 
 
