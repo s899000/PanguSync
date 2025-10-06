@@ -39,7 +39,7 @@ https://www.bilibili.com/video/BV1TmvPz8EhF/?vd_source=8db0f4c511ee648e595718cb6
 
 ### 🔰License Purchase
 
-|   | Trial |v1| v2| v3  | v4 | Professional| Ultimate  | 
+|   | Trial |v1| v2| v3  | v4 | Professional| Supreme | 
 |---|---|---|---|---|---|---|---|
 |  **Price** |  **free**   | **$49**| **$82**| **$96** |**$126** | **$155** |  **$184**  | 
 | **Task Num**|  2 | 10|50| 100 | 300| 500 |  Unlimited |
