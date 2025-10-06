@@ -36,8 +36,13 @@ https://www.bilibili.com/video/BV1TmvPz8EhF/?vd_source=8db0f4c511ee648e595718cb6
 - The paid version can automatically run tasks. Simply add an AutoStart.txt file to the 'Config' folder
 
 
+### 🔰How to register
+After making payment through [PayPal](https://paypal.me/hotstandby), send the payment record and Hardware ID  to the email 435031783@qq.com, After receiving the registration code, you can register on your own<br>
+<img width="430" height="320" alt="5a7518ea-094a-4f1e-92bb-61ecfa3c8ec5" src="https://github.com/user-attachments/assets/0755f569-65f5-439f-ba5e-7c922acb05f1" />
+<img width="430" height="320" alt="03bc9da8-42c9-43b2-8279-8dfb9ef1a640" src="https://github.com/user-attachments/assets/4ec7614e-721a-4719-a3fe-e05825f722b0" />
 
-### 🔰License Purchase
+
+### ☀️License Purchase
 
 |   | Trial |v1| v2| v3  | v4 | Professional| Supreme | 
 |---|---|---|---|---|---|---|---|
@@ -45,11 +50,9 @@ https://www.bilibili.com/video/BV1TmvPz8EhF/?vd_source=8db0f4c511ee648e595718cb6
 | **Task Num**|  2 | 10|50| 100 | 300| 500 |  Unlimited |
 | **Authorization Period**|  1 hour each time<br>(Unlimited trial) |  forever |  forever | forever |forever |forever |forever |
 
-### Paypal
-https://paypal.me/hotstandby
 
-### Email
-435031783@qq.com
+
+
 
 
 
