@@ -42,7 +42,7 @@ After making payment through [PayPal](https://paypal.me/hotstandby), send the pa
 <img width="430" height="320" alt="03bc9da8-42c9-43b2-8279-8dfb9ef1a640" src="https://github.com/user-attachments/assets/4ec7614e-721a-4719-a3fe-e05825f722b0" />
 
 
-### ☀️License Purchase
+### ☀️Purchase
 
 |   | Trial |v1| v2| v3  | v4 | Professional| Supreme | 
 |---|---|---|---|---|---|---|---|
