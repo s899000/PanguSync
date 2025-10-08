@@ -1,7 +1,7 @@
 
 
 
-<img src="主界面.png">
+
 
 
 
@@ -14,7 +14,13 @@ PanguSync is a cross platform database synchronization software that can run on 
 https://www.bilibili.com/video/BV1TmvPz8EhF/?vd_source=8db0f4c511ee648e595718cb636c8df7
 
 
-
+### 📟Interface
+#### Windows
+<img src="主界面.png">
+#### Linux-Ubuntu(After configuration, it is recommended to minimize the software window)
+<img src="Ubuntu运行效果.png">
+#### Linux-CentOS(After configuration, it is recommended to minimize the software window)
+<img src="CentOS运行效果.png">
 
 ### 🔯Synchronous mode
 
