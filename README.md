@@ -15,13 +15,13 @@ https://www.bilibili.com/video/BV1TmvPz8EhF/?vd_source=8db0f4c511ee648e595718cb6
 
 
 ### 📟Interface
-#### Windows
+#### PanguSync 9.7 for Windows
 <img src="主界面.png">
 
-#### Linux-Ubuntu(If there is no GPU rendering, it is recommended to minimize the software window)
+#### PanguSync 1.1 for Linux-Ubuntu(If there is no GPU rendering, it is recommended to minimize the software window)
 <img src="Ubuntu运行效果.png">
 
-#### Linux-CentOS(If there is no GPU rendering, it is recommended to minimize the software window)
+#### PanguSync 1.1 for Linux-CentOS(If there is no GPU rendering, it is recommended to minimize the software window)
 <img src="CentOS运行效果.png">
 
 ### 🔯Synchronous mode
