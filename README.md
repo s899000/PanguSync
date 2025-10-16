@@ -18,10 +18,10 @@ https://www.bilibili.com/video/BV1TmvPz8EhF/?vd_source=8db0f4c511ee648e595718cb6
 #### PanguSync 10.2 for Windows
 <img src="主界面.png">
 
-#### PanguSync 2.1 for Linux(Ubuntu)
+#### PanguSync 2.2 for Linux(Ubuntu)
 <img src="Ubuntu运行效果.png">
 
-#### PanguSync 2.1 for Linux(CentOS)
+#### PanguSync 2.2 for Linux(CentOS)
 <img src="CentOS运行效果.png">
 
 ### 🔯Synchronous mode
