@@ -6,11 +6,18 @@
 
 
 ##   🌵Brief introduction
-PanguSync has created a database incremental synchronization technology that not only solves the high energy consumption and high latency of full comparison software, but also avoids the complex configuration of logging software. It does not require CDC/Binlog to obtain SQL server/MySQL incremental changes (insert, update, delete) in milliseconds. On this basis, multiple synchronization modes are adapted, supporting bidirectional [A ⇆ B], broadcast [A → B, A → C], and chain [A → B → C]. In order to ensure supreme stability, functions such as self increasing primary key error correction, bidirectional reflux blocking, unique constraint error correction, foreign key constraint error correction, and segment detection mapping are built-in.
+PanguSync is a cross platform database synchronization software that can run on Windows/Linux. It has created a unique incremental synchronization technology for databases, which not only solves the high energy consumption and high latency of full comparison software, but also avoids the complex configuration of logging software. It is a superior technique and can be regarded as a niche skill. It can obtain SQL server/MySQL incremental changes (insert, update, delete) in milliseconds without the need for CDC/Binlog. On this basis, multiple synchronization modes are adapted, supporting bidirectional [A ⇆ B], broadcast [A → B, A → C], and chain [A → B → C]. In order to ensure supreme stability, functions such as self increasing primary key error correction, bidirectional reflux blocking, unique constraint error correction, foreign key constraint error correction, and segment detection mapping are built-in.
 
 ### 🎮OS support
 - Windows7/Windows Server 2008R2 or above
 - Ubuntu 16/CentOS 7 or above
+
+### 💾​​Database support
+|  Database |Version   |
+|---|---|
+| Mysql  | 5.6.4 or above  |
+| Sqlserver  |2008R2 or above   |
+| PostgreSQL|Under development  |
 
 ### 🔥Incremental synchronization case
 https://www.bilibili.com/video/BV1TmvPz8EhF/?vd_source=8db0f4c511ee648e595718cb636c8df7
