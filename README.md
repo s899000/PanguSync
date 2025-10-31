@@ -64,7 +64,7 @@ After making payment through [PayPal](https://paypal.me/hotstandby), send the pa
 
 ### ☀️Purchase
 
-|   | Trial |v1| v2| v3  | v4 | Professional| Supreme | 
+|   | Trial |v1| v2| v3  | v4 | v5| Supreme | 
 |---|---|---|---|---|---|---|---|
 |  **Price** |  **free**   | **$49**| **$82**| **$96** |**$126** | **$155** |  **$184**  | 
 | **Task Num**|  2 | 10|50| 100 | 300| 500 |  Unlimited |
