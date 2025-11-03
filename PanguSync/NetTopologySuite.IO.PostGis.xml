@@ -1,0 +1,455 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NetTopologySuite.IO.PostGis</name>
+    </assembly>
+    <members>
+        <member name="T:NetTopologySuite.IO.PostGisGeometryType">
+            <summary>
+            PostGIS Geometry types as defined in the OGC WKB Spec
+            </summary>
+        </member>
+        <member name="F:NetTopologySuite.IO.PostGisGeometryType.Point">
+            <summary>
+            The OGIS geometry type number for points.
+            </summary>
+        </member>
+        <member name="F:NetTopologySuite.IO.PostGisGeometryType.LineString">
+            <summary>
+            The OGIS geometry type number for lines.
+            </summary>
+        </member>
+        <member name="F:NetTopologySuite.IO.PostGisGeometryType.Polygon">
+            <summary>
+            The OGIS geometry type number for polygons.
+            </summary>
+        </member>
+        <member name="F:NetTopologySuite.IO.PostGisGeometryType.MultiPoint">
+            <summary>
+            The OGIS geometry type number for aggregate points.
+            </summary>
+        </member>
+        <member name="F:NetTopologySuite.IO.PostGisGeometryType.MultiLineString">
+            <summary>
+            The OGIS geometry type number for aggregate lines.
+            </summary>
+        </member>
+        <member name="F:NetTopologySuite.IO.PostGisGeometryType.MultiPolygon">
+            <summary>
+            The OGIS geometry type number for aggregate polygons.
+            </summary>
+        </member>
+        <member name="F:NetTopologySuite.IO.PostGisGeometryType.GeometryCollection">
+            <summary>
+            The OGIS geometry type number for feature collections.
+            </summary>
+        </member>
+        <member name="T:NetTopologySuite.IO.PostGisReader">
+            <summary>
+            Converts a PostGIS binary data to a <c>Geometry</c>.
+            </summary>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisReader.#ctor">
+            <summary>
+            Initialize reader with a standard settings.
+            </summary>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisReader.#ctor(NetTopologySuite.Geometries.GeometryFactory)">
+            <summary>
+            Initialize reader with the given <c>GeometryFactory</c>.
+            </summary>
+            <param name="factory"></param>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisReader.#ctor(NetTopologySuite.Geometries.CoordinateSequenceFactory,NetTopologySuite.Geometries.PrecisionModel)">
+            <summary>
+            Initialize reader with the given coordinate sequence factory and the given precision model.
+            </summary>
+            <param name="coordinateSequenceFactory"></param>
+            <param name="precisionModel"> </param>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisReader.#ctor(NetTopologySuite.Geometries.CoordinateSequenceFactory,NetTopologySuite.Geometries.PrecisionModel,NetTopologySuite.Geometries.Ordinates)">
+            <summary>
+            Initialize reader with the given <c>GeometryFactory</c>.
+            </summary>
+            <param name="coordinateSequenceFactory"></param>
+            <param name="precisionModel"> </param>
+            <param name="handleOrdinates">The ordinates to handle</param>
+        </member>
+        <member name="P:NetTopologySuite.IO.PostGisReader.RepairRings">
+            <summary>
+            Gets or sets a value indicating whether or not to modify rings after reading them to
+            close them if they are not already closed.
+            </summary>
+        </member>
+        <member name="P:NetTopologySuite.IO.PostGisReader.AllowedOrdinates">
+            <summary>
+            Gets the <see cref="T:NetTopologySuite.Geometries.Ordinates"/> that this reader can possibly deal with.
+            </summary>
+        </member>
+        <member name="P:NetTopologySuite.IO.PostGisReader.HandleOrdinates">
+            <summary>
+            Gets an <see cref="T:NetTopologySuite.Geometries.Ordinates"/> mask indicating which ordinates present in the data
+            should be transferred to the geometries that we read, or <see cref="F:NetTopologySuite.Geometries.Ordinates.None"/> if
+            all ordinates present in the data should be transferred.
+            </summary>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisReader.Read(System.Byte[])">
+            <summary>
+            Reads a <see cref="T:NetTopologySuite.Geometries.Geometry"/> from a byte array.
+            </summary>
+            <param name="data">The byte array to read from.</param>
+            <returns>The <see cref="T:NetTopologySuite.Geometries.Geometry"/> that was read.</returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisReader.Read(System.IO.Stream)">
+            <summary>
+            Reads a <see cref="T:NetTopologySuite.Geometries.Geometry"/> from a <see cref="T:System.IO.Stream"/>.
+            </summary>
+            <param name="stream">The <see cref="T:System.IO.Stream"/> to read from.</param>
+            <returns>The <see cref="T:NetTopologySuite.Geometries.Geometry"/> that was read.</returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisReader.Read(System.IO.BinaryReader)">
+            <summary>
+            Reads a geometry using the provided <see cref="T:System.IO.BinaryReader"/>
+            </summary>
+            <param name="reader">The reader to use</param>
+            <returns>A geometry</returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisReader.ReadPoint(System.IO.BinaryReader,NetTopologySuite.Geometries.GeometryFactory,NetTopologySuite.Geometries.Ordinates)">
+            <summary>
+            Reads a point from the stream
+            </summary>
+            <param name="reader">The binary reader.</param>
+            <param name="factory">The geometry factory to use for geometry creation.</param>
+            <param name="receivedOrdinates">The ordinates to read. <see cref="F:NetTopologySuite.Geometries.Ordinates.XY"/> are always read.</param>
+            <returns>The Point.</returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisReader.ReadCoordinateSequence(System.IO.BinaryReader,NetTopologySuite.Geometries.CoordinateSequenceFactory,NetTopologySuite.Geometries.PrecisionModel,NetTopologySuite.Geometries.Ordinates)">
+            <summary>
+            Reads a coordinate sequence from the stream, which length is not yet known.
+            </summary>
+            <param name="reader">The binary reader</param>
+            <param name="factory">The geometry factory to use for geometry creation.</param>
+            <param name="precisionModel">The precision model used to make x- and y-ordinates precise.</param>
+            <param name="receivedOrdinates">The ordinates to read. <see cref="F:NetTopologySuite.Geometries.Ordinates.XY"/> are always read.</param>
+            <returns>The coordinate sequence</returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisReader.ReadCoordinateSequenceRing(System.IO.BinaryReader,NetTopologySuite.Geometries.CoordinateSequenceFactory,NetTopologySuite.Geometries.PrecisionModel,NetTopologySuite.Geometries.Ordinates)">
+            <summary>
+            Reads a coordinate sequence from the stream, which length is not yet known.
+            </summary>
+            <param name="reader">The binary reader</param>
+            <param name="factory">The geometry factory to use for geometry creation.</param>
+            <param name="precisionModel">The precision model used to make x- and y-ordinates precise.</param>
+            <param name="receivedOrdinates">The ordinates to read. <see cref="F:NetTopologySuite.Geometries.Ordinates.XY"/> are always read.</param>
+            <returns>The coordinate sequence</returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisReader.ReadCoordinateSequence(System.IO.BinaryReader,NetTopologySuite.Geometries.CoordinateSequenceFactory,NetTopologySuite.Geometries.PrecisionModel,System.Int32,NetTopologySuite.Geometries.Ordinates)">
+            <summary>
+            Reads a <see cref="T:NetTopologySuite.Geometries.CoordinateSequence"/> from the stream
+            </summary>
+            <param name="reader">The binary reader</param>
+            <param name="factory">The geometry factory to use for geometry creation.</param>
+            <param name="precisionModel">The precision model used to make x- and y-ordinates precise.</param>
+            <param name="numPoints">The number of points in the coordinate sequence.</param>
+            <param name="receivedOrdinates">The ordinates to read. <see cref="F:NetTopologySuite.Geometries.Ordinates.XY"/> are always read.</param>
+            <returns>The coordinate sequence</returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisReader.ReadLineString(System.IO.BinaryReader,NetTopologySuite.Geometries.GeometryFactory,NetTopologySuite.Geometries.Ordinates)">
+            <summary>
+            Reads a <see cref="T:NetTopologySuite.Geometries.LineString"/> from the input stream.
+            </summary>
+            <param name="reader">The binary reader.</param>
+            <param name="factory">The geometry factory to use for geometry creation.</param>
+            <param name="ordinates">The ordinates to read. <see cref="F:NetTopologySuite.Geometries.Ordinates.XY"/> are always read.</param>
+            <returns>The LineString.</returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisReader.ReadLinearRing(System.IO.BinaryReader,NetTopologySuite.Geometries.GeometryFactory,NetTopologySuite.Geometries.Ordinates)">
+            <summary>
+            Reads a <see cref="T:NetTopologySuite.Geometries.LinearRing"/> line string from the input stream.
+            </summary>
+            <param name="reader">The binary reader.</param>
+            <param name="factory">The geometry factory to use for geometry creation.</param>
+            <param name="ordinates">The ordinates to read. <see cref="F:NetTopologySuite.Geometries.Ordinates.XY"/> are always read.</param>
+            <returns>The LinearRing.</returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisReader.ReadPolygon(System.IO.BinaryReader,NetTopologySuite.Geometries.GeometryFactory,NetTopologySuite.Geometries.Ordinates)">
+            <summary>
+            Reads a <see cref="T:NetTopologySuite.Geometries.Polygon"/> from the input stream.
+            </summary>
+            <param name="reader">The binary reader.</param>
+            <param name="factory">The geometry factory to use for geometry creation.</param>
+            <param name="ordinates">The ordinates to read. <see cref="F:NetTopologySuite.Geometries.Ordinates.XY"/> are always read.</param>
+            <returns>The LineString.</returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisReader.ReadGeometryArray``1(System.IO.BinaryReader,``0[])">
+            <summary>
+            Reads an array of geometries
+            </summary>
+            <param name="reader">The binary reader.</param>
+            <param name="container">The container for the geometries</param>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisReader.ReadMultiPoint(System.IO.BinaryReader,NetTopologySuite.Geometries.GeometryFactory)">
+            <summary>
+            Reads a <see cref="T:NetTopologySuite.Geometries.MultiPoint"/> from the input stream.
+            </summary>
+            <param name="reader">The binary reader.</param>
+            <param name="factory">The geometry factory to use for geometry creation.</param>
+            <returns>The MultiPoint</returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisReader.ReadMultiLineString(System.IO.BinaryReader,NetTopologySuite.Geometries.GeometryFactory)">
+            <summary>
+            Reads a <see cref="T:NetTopologySuite.Geometries.MultiLineString"/> from the input stream.
+            </summary>
+            <param name="reader">The binary reader.</param>
+            <param name="factory">The geometry factory to use for geometry creation.</param>
+            <returns>The MultiLineString</returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisReader.ReadMultPolygon(System.IO.BinaryReader,NetTopologySuite.Geometries.GeometryFactory)">
+            <summary>
+            Reads a <see cref="T:NetTopologySuite.Geometries.MultiPolygon"/> from the input stream.
+            </summary>
+            <param name="reader">The binary reader.</param>
+            <param name="factory">The geometry factory to use for geometry creation.</param>
+            <returns>The MultPolygon</returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisReader.ReadGeometryCollection(System.IO.BinaryReader,NetTopologySuite.Geometries.GeometryFactory)">
+            <summary>
+            Reads a <see cref="T:NetTopologySuite.Geometries.GeometryCollection"/> from the input stream.
+            </summary>
+            <param name="reader">The binary reader.</param>
+            <param name="factory">The geometry factory to use for geometry creation.</param>
+            <returns>The GeometryCollection</returns>
+        </member>
+        <member name="T:NetTopologySuite.IO.PostGisWriter">
+            <summary>
+            Writes a PostGIS binary representation of a <c>Geometry</c>.
+            </summary>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.#ctor">
+            <summary>
+            Initializes writer with LittleIndian byte order.
+            </summary>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.#ctor(NetTopologySuite.IO.ByteOrder)">
+            <summary>
+            Initializes writer with the specified byte order.
+            </summary>
+            <param name="byteOrder">Encoding type</param>
+        </member>
+        <member name="P:NetTopologySuite.IO.PostGisWriter.ByteOrder">
+            <summary>
+            Gets the <see cref="T:NetTopologySuite.IO.ByteOrder"/> value indicating the byte order to write out.
+            </summary>
+        </member>
+        <member name="P:NetTopologySuite.IO.PostGisWriter.HandleOrdinates">
+            <summary>
+            Gets an <see cref="T:NetTopologySuite.Geometries.Ordinates"/> mask indicating which ordinates present in the geometry
+            should be transferred to the data that we write out, or <see cref="F:NetTopologySuite.Geometries.Ordinates.None"/> if
+            all ordinates present in the geometry should be transferred.
+            <para>
+            Flags other than those in <see cref="F:NetTopologySuite.Geometries.Ordinates.XYZM"/> will be ignored.
+            </para>
+            </summary>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.Write(NetTopologySuite.Geometries.Geometry)">
+            <summary>
+            Writes out a given <see cref="T:NetTopologySuite.Geometries.Geometry"/> to a byte array.
+            </summary>
+            <param name="geometry">The <see cref="T:NetTopologySuite.Geometries.Geometry"/> to write.</param>
+            <returns>The byte array.</returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.Write(NetTopologySuite.Geometries.Geometry,System.IO.Stream)">
+            <summary>
+            Writes out a given <see cref="T:NetTopologySuite.Geometries.Geometry"/> to a <see cref="T:System.IO.Stream"/>.
+            </summary>
+            <param name="geometry">The <see cref="T:NetTopologySuite.Geometries.Geometry"/> to write.</param>
+            <param name="stream">The <see cref="T:System.IO.Stream"/> to write the geometry to.</param>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.Write(NetTopologySuite.Geometries.Geometry,NetTopologySuite.IO.ByteOrder,System.IO.BinaryWriter)">
+            <summary>
+            Writes a binary encoded PostGIS or the given <paramref name="geometry"/> using the provided <paramref name="writer"/>.
+            </summary>
+            <param name="geometry">The geometry to write.</param>
+            <param name="byteOrder">The byte order.</param>
+            <param name="writer">The writer to use.</param>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.WriteHeader(NetTopologySuite.IO.PostGisGeometryType,System.Int32,NetTopologySuite.Geometries.Ordinates,NetTopologySuite.IO.ByteOrder,System.IO.BinaryWriter)">
+            <summary>
+            Writes the binary encoded PostGIS header.
+            </summary>
+            <param name="byteOrder">The byte order specified.</param>
+            <param name="type">The PostGIS geometry type.</param>
+            <param name="srid">The spatial reference of the geometry</param>
+            <param name="ordinates"></param>
+            <param name="writer">The writer to use.</param>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.Write(NetTopologySuite.Geometries.Point,NetTopologySuite.Geometries.Ordinates,NetTopologySuite.IO.ByteOrder,System.IO.BinaryWriter)">
+             <summary>
+            
+             </summary>
+             <param name="byteOrder"></param>
+             <param name="point"></param>
+             <param name="ordinates"></param>
+             <param name="writer"></param>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.Write(NetTopologySuite.Geometries.Geometry[],NetTopologySuite.Geometries.Ordinates,NetTopologySuite.IO.ByteOrder,System.IO.BinaryWriter)">
+            <summary>
+            Write an Array of "full" Geometries
+            </summary>
+            <param name="geometries"></param>
+            <param name="ordinates"></param>
+            <param name="byteOrder"></param>
+            <param name="writer"></param>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.Write(NetTopologySuite.Geometries.LineString,NetTopologySuite.Geometries.Ordinates,NetTopologySuite.IO.ByteOrder,System.IO.BinaryWriter)">
+             <summary>
+            
+             </summary>
+             <param name="lineString"></param>
+             <param name="ordinates"></param>
+             <param name="byteOrder">The byte order.</param>
+             <param name="writer"></param>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.Write(NetTopologySuite.Geometries.LinearRing,NetTopologySuite.Geometries.Ordinates,System.IO.BinaryWriter)">
+            <summary>
+            
+            </summary>
+            <param name="linearRing"></param>
+            <param name="ordinates"></param>
+            <param name="writer"></param>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.Write(NetTopologySuite.Geometries.Polygon,NetTopologySuite.Geometries.Ordinates,NetTopologySuite.IO.ByteOrder,System.IO.BinaryWriter)">
+            <summary>
+            Writes a 'Polygon' to the stream.
+            </summary>
+            <param name="polygon">The polygon to write.</param>
+            <param name="ordinates">The ordinates to write. <see cref="F:NetTopologySuite.Geometries.Ordinates.XY"/> are always written.</param>
+            <param name="byteOrder">The byte order.</param>
+            <param name="writer">The writer to use.</param>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.Write(NetTopologySuite.Geometries.MultiPoint,NetTopologySuite.Geometries.Ordinates,NetTopologySuite.IO.ByteOrder,System.IO.BinaryWriter)">
+            <summary>
+            Writes a 'MultiPoint' to the stream.
+            </summary>
+            <param name="multiPoint">The polygon to write.</param>
+            <param name="ordinates">The ordinates to write. <see cref="F:NetTopologySuite.Geometries.Ordinates.XY"/> are always written.</param>
+            <param name="byteOrder">The byte order.</param>
+            <param name="writer">The writer to use.</param>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.Write(NetTopologySuite.Geometries.MultiLineString,NetTopologySuite.Geometries.Ordinates,NetTopologySuite.IO.ByteOrder,System.IO.BinaryWriter)">
+            <summary>
+            Writes a 'MultLineString' to the stream.
+            </summary>
+            <param name="multLineString">The polygon to write.</param>
+            <param name="ordinates">The ordinates to write. <see cref="F:NetTopologySuite.Geometries.Ordinates.XY"/> are always written.</param>
+            <param name="byteOrder">The byte order.</param>
+            <param name="writer">The writer to use.</param>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.Write(NetTopologySuite.Geometries.MultiPolygon,NetTopologySuite.Geometries.Ordinates,NetTopologySuite.IO.ByteOrder,System.IO.BinaryWriter)">
+            <summary>
+            Writes a 'MultPolygon' to the stream.
+            </summary>
+            <param name="multPolygon">The polygon to write.</param>
+            <param name="ordinates">The ordinates to write. <see cref="F:NetTopologySuite.Geometries.Ordinates.XY"/> are always written.</param>
+            <param name="byteOrder">The byte order.</param>
+            <param name="writer">The writer to use.</param>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.Write(NetTopologySuite.Geometries.GeometryCollection,NetTopologySuite.Geometries.Ordinates,NetTopologySuite.IO.ByteOrder,System.IO.BinaryWriter)">
+            <summary>
+            Writes a 'GeometryCollection' to the stream.
+            </summary>
+            <param name="geomCollection">The polygon to write.</param>
+            <param name="ordinates">The ordinates to write. <see cref="F:NetTopologySuite.Geometries.Ordinates.XY"/> are always written.</param>
+            <param name="byteOrder">The byte order.</param>
+            <param name="writer">The writer to use.</param>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.GetBytes(NetTopologySuite.Geometries.Geometry,System.Int32)">
+            <summary>
+            Supplies a byte array for the  length for Byte Stream.
+            </summary>
+            <param name="geometry">The geometry that needs to be written.</param>
+            <param name="coordinateSpace">The size that is needed per ordinate.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.GetByteStreamSize(NetTopologySuite.Geometries.Geometry,System.Int32)">
+            <summary>
+            Gets the required size for the byte stream's buffer to hold the geometry information.
+            </summary>
+            <param name="geometry">The geometry to write</param>
+            <param name="coordinateSpace">The size for each ordinate entry.</param>
+            <returns>The size</returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.GetByteStreamSize(NetTopologySuite.Geometries.GeometryCollection,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="geometry"></param>
+            <param name="coordinateSpace">The size needed for each coordinate</param>
+            <returns></returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.GetByteStreamSize(NetTopologySuite.Geometries.MultiPolygon,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="geometry"></param>
+            <param name="coordinateSpace">The size needed for each coordinate</param>
+            <returns></returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.GetByteStreamSize(NetTopologySuite.Geometries.MultiLineString,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="geometry"></param>
+            <param name="coordinateSpace">The size needed for each coordinate</param>
+            <returns></returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.GetByteStreamSize(NetTopologySuite.Geometries.MultiPoint,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="geometry"></param>
+            <param name="coordinateSpace">The size needed for each coordinate</param>
+            <returns></returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.GetByteStreamSize(NetTopologySuite.Geometries.Polygon,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="geometry"></param>
+            <param name="coordinateSpace">The size needed for each coordinate</param>
+            <returns></returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.GetByteStreamSize(NetTopologySuite.Geometries.Geometry[],System.Int32)">
+            <summary>
+            Write an Array of "full" Geometries
+            </summary>
+            <param name="container"></param>
+            <param name="coordinateSpace">The size needed for each coordinate</param>
+            <returns></returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.GetByteStreamSize(NetTopologySuite.Geometries.CoordinateSequence,System.Int32)">
+            <summary>
+            Calculates the amount of space needed to write this coordinate sequence.
+            </summary>
+            <param name="sequence">The sequence</param>
+            <param name="coordinateSpace">The size needed for each coordinate</param>
+            <returns></returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.GetByteStreamSize(NetTopologySuite.Geometries.LineString,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="geometry"></param>
+            <param name="coordinateSpace">The size needed for each coordinate</param>
+            <returns></returns>
+        </member>
+        <member name="M:NetTopologySuite.IO.PostGisWriter.GetByteStreamSize(NetTopologySuite.Geometries.Point,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="geometry"></param>
+            <param name="coordinateSpace">The size needed for each coordinate</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

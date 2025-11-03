@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Npgsql.LegacyPostgis</name>
+    </assembly>
+    <members>
+        <member name="T:JetBrains.Annotations.CanBeNullAttribute">
+            <summary>
+            Indicates that the value of the marked element could be <c>null</c> sometimes,
+            so the check for <c>null</c> is necessary before its usage.
+            </summary>
+            <example><code>
+            [CanBeNull] public object Test() { return null; }
+            public void UseTest() {
+              var p = Test();
+              var s = p.ToString(); // Warning: Possible 'System.NullReferenceException'
+            }
+            </code></example>
+        </member>
+        <member name="T:JetBrains.Annotations.NotNullAttribute">
+            <summary>
+            Indicates that the value of the marked element could never be <c>null</c>.
+            </summary>
+            <example><code>
+            [NotNull] public object Foo() {
+              return null; // Warning: Possible 'null' assignment
+            }
+            </code></example>
+        </member>
+        <member name="T:JetBrains.Annotations.ItemNotNullAttribute">
+            <summary>
+            Can be appplied to symbols of types derived from IEnumerable as well as to symbols of Task
+            and Lazy classes to indicate that the value of a collection item, of the Task.Result property
+            or of the Lazy.Value property can never be null.
+            </summary>
+        </member>
+        <member name="T:JetBrains.Annotations.ItemCanBeNullAttribute">
+            <summary>
+            Can be appplied to symbols of types derived from IEnumerable as well as to symbols of Task
+            and Lazy classes to indicate that the value of a collection item, of the Task.Result property
+            or of the Lazy.Value property can be null.
+            </summary>
+        </member>
+        <member name="T:JetBrains.Annotations.UsedImplicitlyAttribute">
+            <summary>
+            Indicates that the marked symbol is used implicitly (e.g. via reflection, in external library),
+            so this symbol will not be marked as unused (as well as by other usage inspections).
+            </summary>
+        </member>
+        <member name="T:JetBrains.Annotations.MeansImplicitUseAttribute">
+            <summary>
+            Should be used on attributes and causes ReSharper to not mark symbols marked with such attributes
+            as unused (as well as by other usage inspections)
+            </summary>
+        </member>
+        <member name="F:JetBrains.Annotations.ImplicitUseKindFlags.Access">
+            <summary>Only entity marked with attribute considered used.</summary>
+        </member>
+        <member name="F:JetBrains.Annotations.ImplicitUseKindFlags.Assign">
+            <summary>Indicates implicit assignment to a member.</summary>
+        </member>
+        <member name="F:JetBrains.Annotations.ImplicitUseKindFlags.InstantiatedWithFixedConstructorSignature">
+            <summary>
+            Indicates implicit instantiation of a type with fixed constructor signature.
+            That means any unused constructor parameters won't be reported as such.
+            </summary>
+        </member>
+        <member name="F:JetBrains.Annotations.ImplicitUseKindFlags.InstantiatedNoFixedConstructorSignature">
+            <summary>Indicates implicit instantiation of a type.</summary>
+        </member>
+        <member name="T:JetBrains.Annotations.ImplicitUseTargetFlags">
+            <summary>
+            Specify what is considered used implicitly when marked
+            with <see cref="T:JetBrains.Annotations.MeansImplicitUseAttribute"/> or <see cref="T:JetBrains.Annotations.UsedImplicitlyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:JetBrains.Annotations.ImplicitUseTargetFlags.Members">
+            <summary>Members of entity marked with attribute are considered used.</summary>
+        </member>
+        <member name="F:JetBrains.Annotations.ImplicitUseTargetFlags.WithMembers">
+            <summary>Entity marked with attribute and all its members considered used.</summary>
+        </member>
+        <member name="T:JetBrains.Annotations.PublicAPIAttribute">
+            <summary>
+            This attribute is intended to mark publicly available API
+            which should not be removed and so is treated as used.
+            </summary>
+        </member>
+        <member name="T:JetBrains.Annotations.ContractAnnotationAttribute">
+            <summary>
+            Describes dependency between method input and output.
+            </summary>
+            <syntax>
+            <p>Function Definition Table syntax:</p>
+            <list>
+            <item>FDT      ::= FDTRow [;FDTRow]*</item>
+            <item>FDTRow   ::= Input =&gt; Output | Output &lt;= Input</item>
+            <item>Input    ::= ParameterName: Value [, Input]*</item>
+            <item>Output   ::= [ParameterName: Value]* {halt|stop|void|nothing|Value}</item>
+            <item>Value    ::= true | false | null | notnull | canbenull</item>
+            </list>
+            If method has single input parameter, it's name could be omitted.<br/>
+            Using <c>halt</c> (or <c>void</c>/<c>nothing</c>, which is the same)
+            for method output means that the methos doesn't return normally.<br/>
+            <c>canbenull</c> annotation is only applicable for output parameters.<br/>
+            You can use multiple <c>[ContractAnnotation]</c> for each FDT row,
+            or use single attribute with rows separated by semicolon.<br/>
+            </syntax>
+            <examples><list>
+            <item><code>
+            [ContractAnnotation("=> halt")]
+            public void TerminationMethod()
+            </code></item>
+            <item><code>
+            [ContractAnnotation("halt &lt;= condition: false")]
+            public void Assert(bool condition, string text) // regular assertion method
+            </code></item>
+            <item><code>
+            [ContractAnnotation("s:null => true")]
+            public bool IsNullOrEmpty(string s) // string.IsNullOrEmpty()
+            </code></item>
+            <item><code>
+            // A method that returns null if the parameter is null,
+            // and not null if the parameter is not null
+            [ContractAnnotation("null => null; notnull => notnull")]
+            public object Transform(object data)
+            </code></item>
+            <item><code>
+            [ContractAnnotation("s:null=>false; =>true,result:notnull; =>false, result:null")]
+            public bool TryParse(string s, out Person result)
+            </code></item>
+            </list></examples>
+        </member>
+        <member name="T:JetBrains.Annotations.InvokerParameterNameAttribute">
+            <summary>
+            Indicates that the function argument should be string literal and match one
+            of the parameters of the caller function. For example, ReSharper annotates
+            the parameter of <see cref="T:System.ArgumentNullException"/>.
+            </summary>
+            <example><code>
+            public void Foo(string param) {
+              if (param == null)
+                throw new ArgumentNullException("par"); // Warning: Cannot resolve symbol
+            }
+            </code></example>
+        </member>
+        <member name="T:JetBrains.Annotations.NoEnumerationAttribute">
+            <summary>
+            Indicates that IEnumerable, passed as parameter, is not enumerated.
+            </summary>
+        </member>
+        <member name="T:Npgsql.LegacyPostgis.WkbIdentifier">
+            <summary>
+            Represents the identifier of the Well Known Binary representation of a geographical feature specified by the OGC.
+            http://portal.opengeospatial.org/files/?artifact_id=13227 Chapter 6.3.2.7
+            </summary>
+        </member>
+        <member name="T:Npgsql.LegacyPostgis.EwkbModifiers">
+            <summary>
+            The modifiers used by postgis to extend the geomtry's binary representation
+            </summary>
+        </member>
+        <member name="T:Npgsql.LegacyPostgis.Coordinate2D">
+            <summary>
+            A structure representing a 2D double precision floating point coordinate;
+            </summary>
+        </member>
+        <member name="P:Npgsql.LegacyPostgis.Coordinate2D.X">
+            <summary>
+            X coordinate.
+            </summary>
+        </member>
+        <member name="P:Npgsql.LegacyPostgis.Coordinate2D.Y">
+            <summary>
+            Y coordinate.
+            </summary>
+        </member>
+        <member name="M:Npgsql.LegacyPostgis.Coordinate2D.#ctor(System.Double,System.Double)">
+            <summary>
+            Generates a new BBpoint with the specified coordinates.
+            </summary>
+            <param name="x">X coordinate</param>
+            <param name="y">Y coordinate</param>
+        </member>
+        <member name="T:Npgsql.LegacyPostgis.PostgisGeometry">
+            <summary>
+            Represents an Postgis feature.
+            </summary>
+        </member>
+        <member name="M:Npgsql.LegacyPostgis.PostgisGeometry.GetLenHelper">
+            <summary>
+            returns the binary length of the data structure without header.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Npgsql.LegacyPostgis.PostgisGeometry.SRID">
+            <summary>
+            The Spatial Reference System Identifier of the geometry (0 if unspecified).
+            </summary>
+        </member>
+        <member name="T:Npgsql.LegacyPostgis.PostgisPoint">
+            <summary>
+            Represents an Postgis 2D Point
+            </summary>
+        </member>
+        <member name="T:Npgsql.LegacyPostgis.PostgisLineString">
+            <summary>
+            Represents an Ogc 2D LineString
+            </summary>
+        </member>
+        <member name="T:Npgsql.LegacyPostgis.PostgisPolygon">
+            <summary>
+            Represents an Postgis 2D Polygon.
+            </summary>
+        </member>
+        <member name="T:Npgsql.LegacyPostgis.PostgisMultiPoint">
+            <summary>
+            Represents a Postgis 2D MultiPoint
+            </summary>
+        </member>
+        <member name="T:Npgsql.LegacyPostgis.PostgisMultiLineString">
+            <summary>
+            Represents a Postgis 2D MultiLineString
+            </summary>
+        </member>
+        <member name="T:Npgsql.LegacyPostgis.PostgisMultiPolygon">
+            <summary>
+            Represents a Postgis 2D MultiPolygon.
+            </summary>
+        </member>
+        <member name="T:Npgsql.LegacyPostgis.PostgisGeometryCollection">
+            <summary>
+            Represents a collection of Postgis feature.
+            </summary>
+        </member>
+        <member name="T:Npgsql.NpgsqlLegacyPostgisExtensions">
+            <summary>
+            Extension adding the legacy PostGIS types to an Npgsql type mapper.
+            </summary>
+        </member>
+        <member name="M:Npgsql.NpgsqlLegacyPostgisExtensions.UseLegacyPostgis(Npgsql.TypeMapping.INpgsqlTypeMapper)">
+            <summary>
+            Sets up the legacy PostGIS types to an Npgsql type mapper.
+            </summary>
+            <param name="mapper">The type mapper to set up (global or connection-specific)</param>
+        </member>
+    </members>
+</doc>
