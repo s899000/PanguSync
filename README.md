@@ -25,7 +25,7 @@ https://www.bilibili.com/video/BV1TmvPz8EhF/?vd_source=8db0f4c511ee648e595718cb6
 
 ### 📟Interface
 
-### PanguSync 11.1 for Windows
+### PanguSync 11.2 for Windows
 <img src="主界面.png">
 
 ### PanguSync 10.7 for Linux(Ubuntu)
