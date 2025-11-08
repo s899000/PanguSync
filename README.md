@@ -17,7 +17,7 @@ PanguSync is a cross platform database synchronization software that can run on 
 |---|---|
 | Mysql  | 5.6.4 or above  |
 | Sqlserver  |2008R2 or above   |
-| PostgreSQL| 9.6 or above  |
+| PostgreSQL| 9.5 or above  |
 
 ### 🔥Incremental synchronization case
 https://www.bilibili.com/video/BV1TmvPz8EhF/?vd_source=8db0f4c511ee648e595718cb636c8df7
@@ -28,10 +28,10 @@ https://www.bilibili.com/video/BV1TmvPz8EhF/?vd_source=8db0f4c511ee648e595718cb6
 ### PanguSync 11 for Windows
 <img src="主界面.png">
 
-### PanguSync 10.6 for Linux(Ubuntu)
+### PanguSync 10.7 for Linux(Ubuntu)
 <img src="Ubuntu运行.png" >
 
-### PanguSync 10.6 for Linux(CentOS)
+### PanguSync 10.7 for Linux(CentOS)
 <img src="CentOS运行.png" >
 
 
