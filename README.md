@@ -25,7 +25,7 @@ https://www.bilibili.com/video/BV1TmvPz8EhF/?vd_source=8db0f4c511ee648e595718cb6
 
 ### 📟Interface
 
-### PanguSync 12 for Windows
+### PanguSync 13 for Windows
 <img src="主界面.png">
 
 ### PanguSync 12 for Linux(Ubuntu)
