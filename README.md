@@ -31,8 +31,6 @@ https://www.bilibili.com/video/BV1TmvPz8EhF/?vd_source=8db0f4c511ee648e595718cb6
 ### PanguSync 15 for Linux(Ubuntu)
 <img src="Ubuntu运行.png" >
 
-### PanguSync 15 for Linux(CentOS)
-<img src="CentOS运行.png" >
 
 
 
