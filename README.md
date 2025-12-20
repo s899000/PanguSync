@@ -56,8 +56,8 @@ https://www.bilibili.com/video/BV1TmvPz8EhF/?vd_source=8db0f4c511ee648e595718cb6
 
 ### 🔰How to register
 After making payment through [PayPal](https://paypal.me/hotstandby), send the payment record and Hardware ID  to the email 435031783@qq.com, After receiving the registration code, you can register on your own<br>
-<img width="400" height="320" alt="5a7518ea-094a-4f1e-92bb-61ecfa3c8ec5" src="https://github.com/user-attachments/assets/0755f569-65f5-439f-ba5e-7c922acb05f1" />
-<img width="400" height="320" alt="03bc9da8-42c9-43b2-8279-8dfb9ef1a640" src="https://github.com/user-attachments/assets/4ec7614e-721a-4719-a3fe-e05825f722b0" />
+<img width="400" height="320" src="硬件序列号.png" />
+<img width="400" height="320" src="注册码.png" />
 
 
 ### ☀️Purchase
