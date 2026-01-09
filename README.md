@@ -55,18 +55,14 @@ https://www.bilibili.com/video/BV1TmvPz8EhF/?vd_source=8db0f4c511ee648e595718cb6
 
 
 ### 🔰How to register
-After making payment through [PayPal](https://paypal.me/hotstandby), send the payment record and Hardware ID  to the email 435031783@qq.com, After receiving the registration code, you can register on your own<br>
+Provide the Hardware ID when purchasing, and you can register yourself after receiving the registration code<br>
 <img width="400" height="320" src="硬件序列号.png" />
 <img width="400" height="320" src="注册码.png" />
 
 
 ### ☀️Purchase
 
-|   | Trial | Ultimate | 
-|---|---|---|
-|  **Price** |  **free**    |  **$280**  | 
-| **Task Num**|  2  |  Unlimited |
-| **Authorization Period**|  1 hour each time<br>(Unlimited trial) |forever |
+https://item.taobao.com/item.htm?ft=t&id=1004081816229
 
 
 
