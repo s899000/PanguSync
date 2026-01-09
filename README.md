@@ -20,7 +20,10 @@ PanguSync is a cross platform database synchronization software that can run on 
 | PostgreSQL| 9.5 or above  |
 
 ### 🔥Incremental synchronization case
-https://www.bilibili.com/video/BV1TmvPz8EhF/?vd_source=8db0f4c511ee648e595718cb636c8df7
+
+<a href="https://www.bilibili.com/video/BV1TmvPz8EhF/?vd_source=8db0f4c511ee648e595718cb636c8df7" target="_blank">SQL Server incremental synchronization</a>      
+
+
 
 
 ### 📟Interface
