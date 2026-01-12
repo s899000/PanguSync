@@ -12,9 +12,7 @@ PanguSync is a cross platform database synchronization software that can run on 
 ### 📚Tutorial
 - 📜[PanguSync manual【Must-see】](https://www.cnblogs.com/SuperCCSoft/p/19470393)
 
-### 🎮OS support
-- Windows7/Windows Server 2008R2 or above
-- Ubuntu 16/CentOS 7 or above
+
 
 ### 🗽​​Database Support
 | Source\Target<br>Full quantity+incremental |Mysql<br>5.6.4 or above |Sqlserver<br>2008R2 or above   |PostgreSQL<br>9.5 or above  |
