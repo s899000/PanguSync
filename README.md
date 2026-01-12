@@ -55,10 +55,7 @@ PanguSync is a cross platform database synchronization software that can run on 
 
 
 
-### ㊙️Regarding the self startup upon startup
-- Set the software as a shortcut, then [Win+R] enter [shell: startup] and drag the shortcut into the directory
-- Win+R input 'control userpasswords2', cancel 'To use this computer, the user must enter a username and password'
-- The paid version can automatically run tasks. Simply add an AutoStart.txt file to the 'Config' folder
+
 
 
 ### 🔰How to register
