@@ -66,7 +66,8 @@ Provide the Hardware ID when purchasing, and you can register yourself after rec
 
 https://item.taobao.com/item.htm?ft=t&id=1004081816229
 
-
+- No network required, offline one machine one code permanent authorization
+- **Exclusive to the entire network: Easy incremental real-time synchronization, experience it immediately!!!** 
 
 
 
