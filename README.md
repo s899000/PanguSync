@@ -8,6 +8,10 @@
 ###   🌵Brief introduction
 PanguSync is a cross platform database synchronization software that can run on Windows/Linux. It has created a unique incremental synchronization technology for databases, which not only solves the high energy consumption and high latency of full comparison software, but also avoids the complex configuration of logging software. It is a superior technique and can be regarded as a niche skill. It can obtain SQL server/MySQL/PostgreSQL incremental changes (insert, update, delete) in milliseconds without the need for CDC/Binlog/WAL. On this basis, multiple synchronization modes are adapted, supporting bidirectional [A ⇆ B], broadcast [A → B, A → C], and chain [A → B → C]. In order to ensure supreme stability, functions such as self increasing primary key error correction, bidirectional reflux blocking, unique constraint error correction, foreign key constraint error correction, and segment detection mapping are built-in.
 
+
+### 📚图文教程
+- 📜[PanguSync manual【$\color{red}{Must-see}$】](https://www.cnblogs.com/SuperCCSoft/p/19470393)
+
 ### 🎮OS support
 - Windows7/Windows Server 2008R2 or above
 - Ubuntu 16/CentOS 7 or above
@@ -19,7 +23,7 @@ PanguSync is a cross platform database synchronization software that can run on 
 | Sqlserver  |2008R2 or above   |
 | PostgreSQL| 9.5 or above  |
 
-### 🔥Incremental synchronization case
+
 
 
 https://www.bilibili.com/video/BV1TmvPz8EhF/?vd_source=8db0f4c511ee648e595718cb636c8df7
