@@ -33,7 +33,7 @@ PanguSync is a cross platform database quasi real time synchronization software 
 ### PanguSync 15 for Windows
 <img src="主界面.png">
 
-### PanguSync 15 for Linux(Ubuntu)
+### PanguSync 15 for Linux
 <img src="Ubuntu运行.png" >
 
 
